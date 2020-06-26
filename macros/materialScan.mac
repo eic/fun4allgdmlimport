@@ -1,0 +1,12 @@
+# Include default setup
+#/control/execute jleic.mac
+
+#Theta range: bins, start, span
+/control/matScan/theta 1 0 0
+
+#Phi range: bins, start, span
+#/control/matScan/phi 1000 163 34
+/control/matScan/phi 3600 0 360
+
+#Start scan
+/control/matScan/scan
