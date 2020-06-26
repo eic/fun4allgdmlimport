@@ -1,0 +1,2987 @@
+<?xml version="1.0"?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <position name="SitpcCellFlexLayer00_0inSitpcChipAssembly00pos" x="0" y="0" z="-0.980362971082" unit="cm"/>
+    <position name="SitpcAluStrips00_0inSitpcChipAssembly00pos" x="0" y="0" z="-0.935362971082" unit="cm"/>
+    <position name="SitpcMimosaCore00_0inSitpcMimosaShell00pos" x="-0.1" y="0" z="0" unit="cm"/>
+    <position name="SitpcMimosaShell00_0inSitpcChipAssembly00pos" x="0" y="0" z="-0.917862971082" unit="cm"/>
+    <position name="SitpcColdPlate00_0inSitpcChipAssembly00pos" x="0" y="0" z="-0.893362971082" unit="cm"/>
+    <position name="SitpcWaterPipe00_0inSitpcChipAssembly00pos" x="1" y="0" z="-0.817662971082" unit="cm"/>
+    <rotation name="SitpcWaterPipe00_0inSitpcChipAssembly00rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcWater00_0inSitpcChipAssembly00pos" x="1" y="0" z="-0.817662971082" unit="cm"/>
+    <rotation name="SitpcWater00_0inSitpcChipAssembly00rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcWaterPipe00_1inSitpcChipAssembly00pos" x="-1" y="0" z="-0.817662971082" unit="cm"/>
+    <rotation name="SitpcWaterPipe00_1inSitpcChipAssembly00rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcWater00_1inSitpcChipAssembly00pos" x="-1" y="0" z="-0.817662971082" unit="cm"/>
+    <rotation name="SitpcWater00_1inSitpcChipAssembly00rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcEnforcementBeamApex00_0inSitpcChipAssembly00pos" x="0" y="0" z="0.837593825719" unit="cm"/>
+    <rotation name="SitpcEnforcementBeamApex00_0inSitpcChipAssembly00rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcEnforcementBeamBase00_0inSitpcChipAssembly00pos" x="-2.88" y="0" z="-0.83672195493" unit="cm"/>
+    <position name="SitpcEnforcementBeamBase00_1inSitpcChipAssembly00pos" x="2.88" y="0" z="-0.83672195493" unit="cm"/>
+    <rotation name="SitpcEnforcementBeamBase00_1inSitpcChipAssembly00rot" x="0" y="0" z="-180" unit="deg"/>
+    <position name="SitpcFlatRoof00_2inSitpcSideWall00pos" x="0" y="0" z="0.01" unit="cm"/>
+    <position name="SitpcRoofSideBeam00_0inSitpcSideWall00pos" x="0" y="-1.12875" z="-0.0025" unit="cm"/>
+    <rotation name="SitpcRoofSideBeam00_0inSitpcSideWall00rot" x="0" y="-0" z="-11.4637922798" unit="deg"/>
+    <position name="SitpcRoofSideBeam00_1inSitpcSideWall00pos" x="0" y="-0.37625" z="-0.0025" unit="cm"/>
+    <rotation name="SitpcRoofSideBeam00_1inSitpcSideWall00rot" x="0" y="-0" z="11.4637922798" unit="deg"/>
+    <position name="SitpcRoofSideBeam00_2inSitpcSideWall00pos" x="0" y="0.37625" z="-0.0025" unit="cm"/>
+    <rotation name="SitpcRoofSideBeam00_2inSitpcSideWall00rot" x="0" y="-0" z="-11.4637922798" unit="deg"/>
+    <position name="SitpcRoofSideBeam00_3inSitpcSideWall00pos" x="0" y="1.12875" z="-0.0025" unit="cm"/>
+    <rotation name="SitpcRoofSideBeam00_3inSitpcSideWall00rot" x="0" y="-0" z="11.4637922798" unit="deg"/>
+    <position name="SitpcSideWall00_0inSitpcChipAssembly00pos" x="1.50625" y="0" z="0.0054877502499" unit="cm"/>
+    <rotation name="SitpcSideWall00_0inSitpcChipAssembly00rot" x="0" y="-30" z="0" unit="deg"/>
+    <position name="SitpcSideWall00_1inSitpcChipAssembly00pos" x="-1.50625" y="0" z="0.0054877502499" unit="cm"/>
+    <rotation name="SitpcSideWall00_1inSitpcChipAssembly00rot" x="0" y="30" z="180" unit="deg"/>
+    <position name="SitpcChipAssembly00_0inSitpcStave00pos" x="0" y="-40.635" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_1inSitpcStave00pos" x="0" y="-37.625" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_2inSitpcStave00pos" x="0" y="-34.615" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_3inSitpcStave00pos" x="0" y="-31.605" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_4inSitpcStave00pos" x="0" y="-28.595" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_5inSitpcStave00pos" x="0" y="-25.585" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_6inSitpcStave00pos" x="0" y="-22.575" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_7inSitpcStave00pos" x="0" y="-19.565" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_8inSitpcStave00pos" x="0" y="-16.555" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_9inSitpcStave00pos" x="0" y="-13.545" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_10inSitpcStave00pos" x="0" y="-10.535" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_11inSitpcStave00pos" x="0" y="-7.525" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_12inSitpcStave00pos" x="0" y="-4.515" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_13inSitpcStave00pos" x="0" y="-1.505" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_14inSitpcStave00pos" x="0" y="1.505" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_15inSitpcStave00pos" x="0" y="4.515" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_16inSitpcStave00pos" x="0" y="7.525" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_17inSitpcStave00pos" x="0" y="10.535" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_18inSitpcStave00pos" x="0" y="13.545" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_19inSitpcStave00pos" x="0" y="16.555" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_20inSitpcStave00pos" x="0" y="19.565" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_21inSitpcStave00pos" x="0" y="22.575" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_22inSitpcStave00pos" x="0" y="25.585" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_23inSitpcStave00pos" x="0" y="28.595" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_24inSitpcStave00pos" x="0" y="31.605" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_25inSitpcStave00pos" x="0" y="34.615" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_26inSitpcStave00pos" x="0" y="37.625" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly00_27inSitpcStave00pos" x="0" y="40.635" z="0" unit="cm"/>
+    <position name="SitpcStave00_0inSITPCpos" x="0" y="23.4151154536" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_0inSITPCrot" x="90" y="-6" z="0" unit="deg"/>
+    <position name="SitpcStave00_1inSITPCpos" x="5.60360390915" y="22.7347147538" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_1inSITPCrot" x="90" y="-19.8461538462" z="0" unit="deg"/>
+    <position name="SitpcStave00_2inSITPCpos" x="10.8815467274" y="20.7330550698" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_2inSITPCrot" x="90" y="-33.6923076923" z="0" unit="deg"/>
+    <position name="SitpcStave00_3inSITPCpos" x="15.5270936026" y="17.5264655867" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_3inSITPCrot" x="90" y="-47.5384615385" z="0" unit="deg"/>
+    <position name="SitpcStave00_4inSITPCpos" x="19.2702622364" y="13.3013016298" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_4inSITPCrot" x="90" y="-61.3846153846" z="0" unit="deg"/>
+    <position name="SitpcStave00_5inSITPCpos" x="21.8935132735" y="8.30311437052" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_5inSITPCrot" x="90" y="-75.2307692308" z="0" unit="deg"/>
+    <position name="SitpcStave00_6inSITPCpos" x="23.2443928988" y="2.82238028457" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_6inSITPCrot" x="90" y="-89.0769230769" z="0" unit="deg"/>
+    <position name="SitpcStave00_7inSITPCpos" x="23.2443928988" y="-2.82238028457" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_7inSITPCrot" x="-90" y="-77.0769230769" z="180" unit="deg"/>
+    <position name="SitpcStave00_8inSITPCpos" x="21.8935132735" y="-8.30311437052" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_8inSITPCrot" x="-90" y="-63.2307692308" z="180" unit="deg"/>
+    <position name="SitpcStave00_9inSITPCpos" x="19.2702622364" y="-13.3013016298" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_9inSITPCrot" x="-90" y="-49.3846153846" z="180" unit="deg"/>
+    <position name="SitpcStave00_10inSITPCpos" x="15.5270936026" y="-17.5264655867" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_10inSITPCrot" x="-90" y="-35.5384615385" z="180" unit="deg"/>
+    <position name="SitpcStave00_11inSITPCpos" x="10.8815467274" y="-20.7330550698" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_11inSITPCrot" x="-90" y="-21.6923076923" z="180" unit="deg"/>
+    <position name="SitpcStave00_12inSITPCpos" x="5.60360390915" y="-22.7347147538" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_12inSITPCrot" x="-90" y="-7.84615384615" z="180" unit="deg"/>
+    <position name="SitpcStave00_13inSITPCpos" x="2.86752461919e-15" y="-23.4151154536" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_13inSITPCrot" x="-90" y="6" z="180" unit="deg"/>
+    <position name="SitpcStave00_14inSITPCpos" x="-5.60360390915" y="-22.7347147538" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_14inSITPCrot" x="-90" y="19.8461538462" z="180" unit="deg"/>
+    <position name="SitpcStave00_15inSITPCpos" x="-10.8815467274" y="-20.7330550698" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_15inSITPCrot" x="-90" y="33.6923076923" z="180" unit="deg"/>
+    <position name="SitpcStave00_16inSITPCpos" x="-15.5270936026" y="-17.5264655867" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_16inSITPCrot" x="-90" y="47.5384615385" z="180" unit="deg"/>
+    <position name="SitpcStave00_17inSITPCpos" x="-19.2702622364" y="-13.3013016298" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_17inSITPCrot" x="-90" y="61.3846153846" z="180" unit="deg"/>
+    <position name="SitpcStave00_18inSITPCpos" x="-21.8935132735" y="-8.30311437052" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_18inSITPCrot" x="-90" y="75.2307692308" z="180" unit="deg"/>
+    <position name="SitpcStave00_19inSITPCpos" x="-23.2443928988" y="-2.82238028457" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_19inSITPCrot" x="-90" y="89.0769230769" z="180" unit="deg"/>
+    <position name="SitpcStave00_20inSITPCpos" x="-23.2443928988" y="2.82238028457" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_20inSITPCrot" x="90" y="77.0769230769" z="0" unit="deg"/>
+    <position name="SitpcStave00_21inSITPCpos" x="-21.8935132735" y="8.30311437052" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_21inSITPCrot" x="90" y="63.2307692308" z="0" unit="deg"/>
+    <position name="SitpcStave00_22inSITPCpos" x="-19.2702622364" y="13.3013016298" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_22inSITPCrot" x="90" y="49.3846153846" z="0" unit="deg"/>
+    <position name="SitpcStave00_23inSITPCpos" x="-15.5270936026" y="17.5264655867" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_23inSITPCrot" x="90" y="35.5384615385" z="0" unit="deg"/>
+    <position name="SitpcStave00_24inSITPCpos" x="-10.8815467274" y="20.7330550698" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_24inSITPCrot" x="90" y="21.6923076923" z="0" unit="deg"/>
+    <position name="SitpcStave00_25inSITPCpos" x="-5.60360390915" y="22.7347147538" z="0" unit="cm"/>
+    <rotation name="SitpcStave00_25inSITPCrot" x="90" y="7.84615384615" z="0" unit="deg"/>
+    <position name="SitpcCellFlexLayer01_0inSitpcChipAssembly01pos" x="0" y="0" z="-0.980362971082" unit="cm"/>
+    <position name="SitpcAluStrips01_0inSitpcChipAssembly01pos" x="0" y="0" z="-0.935362971082" unit="cm"/>
+    <position name="SitpcMimosaCore01_0inSitpcMimosaShell01pos" x="-0.1" y="0" z="0" unit="cm"/>
+    <position name="SitpcMimosaShell01_0inSitpcChipAssembly01pos" x="0" y="0" z="-0.917862971082" unit="cm"/>
+    <position name="SitpcColdPlate01_0inSitpcChipAssembly01pos" x="0" y="0" z="-0.893362971082" unit="cm"/>
+    <position name="SitpcWaterPipe01_0inSitpcChipAssembly01pos" x="1" y="0" z="-0.817662971082" unit="cm"/>
+    <rotation name="SitpcWaterPipe01_0inSitpcChipAssembly01rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcWater01_0inSitpcChipAssembly01pos" x="1" y="0" z="-0.817662971082" unit="cm"/>
+    <rotation name="SitpcWater01_0inSitpcChipAssembly01rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcWaterPipe01_1inSitpcChipAssembly01pos" x="-1" y="0" z="-0.817662971082" unit="cm"/>
+    <rotation name="SitpcWaterPipe01_1inSitpcChipAssembly01rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcWater01_1inSitpcChipAssembly01pos" x="-1" y="0" z="-0.817662971082" unit="cm"/>
+    <rotation name="SitpcWater01_1inSitpcChipAssembly01rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcEnforcementBeamApex01_0inSitpcChipAssembly01pos" x="0" y="0" z="0.837593825719" unit="cm"/>
+    <rotation name="SitpcEnforcementBeamApex01_0inSitpcChipAssembly01rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcEnforcementBeamBase01_0inSitpcChipAssembly01pos" x="-2.88" y="0" z="-0.83672195493" unit="cm"/>
+    <position name="SitpcEnforcementBeamBase01_1inSitpcChipAssembly01pos" x="2.88" y="0" z="-0.83672195493" unit="cm"/>
+    <rotation name="SitpcEnforcementBeamBase01_1inSitpcChipAssembly01rot" x="0" y="0" z="-180" unit="deg"/>
+    <position name="SitpcFlatRoof01_2inSitpcSideWall01pos" x="0" y="0" z="0.01" unit="cm"/>
+    <position name="SitpcRoofSideBeam01_0inSitpcSideWall01pos" x="0" y="-1.12875" z="-0.0025" unit="cm"/>
+    <rotation name="SitpcRoofSideBeam01_0inSitpcSideWall01rot" x="0" y="-0" z="-11.4637922798" unit="deg"/>
+    <position name="SitpcRoofSideBeam01_1inSitpcSideWall01pos" x="0" y="-0.37625" z="-0.0025" unit="cm"/>
+    <rotation name="SitpcRoofSideBeam01_1inSitpcSideWall01rot" x="0" y="-0" z="11.4637922798" unit="deg"/>
+    <position name="SitpcRoofSideBeam01_2inSitpcSideWall01pos" x="0" y="0.37625" z="-0.0025" unit="cm"/>
+    <rotation name="SitpcRoofSideBeam01_2inSitpcSideWall01rot" x="0" y="-0" z="-11.4637922798" unit="deg"/>
+    <position name="SitpcRoofSideBeam01_3inSitpcSideWall01pos" x="0" y="1.12875" z="-0.0025" unit="cm"/>
+    <rotation name="SitpcRoofSideBeam01_3inSitpcSideWall01rot" x="0" y="-0" z="11.4637922798" unit="deg"/>
+    <position name="SitpcSideWall01_0inSitpcChipAssembly01pos" x="1.50625" y="0" z="0.0054877502499" unit="cm"/>
+    <rotation name="SitpcSideWall01_0inSitpcChipAssembly01rot" x="0" y="-30" z="0" unit="deg"/>
+    <position name="SitpcSideWall01_1inSitpcChipAssembly01pos" x="-1.50625" y="0" z="0.0054877502499" unit="cm"/>
+    <rotation name="SitpcSideWall01_1inSitpcChipAssembly01rot" x="0" y="30" z="180" unit="deg"/>
+    <position name="SitpcChipAssembly01_0inSitpcStave01pos" x="0" y="-40.635" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_1inSitpcStave01pos" x="0" y="-37.625" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_2inSitpcStave01pos" x="0" y="-34.615" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_3inSitpcStave01pos" x="0" y="-31.605" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_4inSitpcStave01pos" x="0" y="-28.595" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_5inSitpcStave01pos" x="0" y="-25.585" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_6inSitpcStave01pos" x="0" y="-22.575" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_7inSitpcStave01pos" x="0" y="-19.565" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_8inSitpcStave01pos" x="0" y="-16.555" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_9inSitpcStave01pos" x="0" y="-13.545" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_10inSitpcStave01pos" x="0" y="-10.535" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_11inSitpcStave01pos" x="0" y="-7.525" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_12inSitpcStave01pos" x="0" y="-4.515" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_13inSitpcStave01pos" x="0" y="-1.505" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_14inSitpcStave01pos" x="0" y="1.505" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_15inSitpcStave01pos" x="0" y="4.515" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_16inSitpcStave01pos" x="0" y="7.525" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_17inSitpcStave01pos" x="0" y="10.535" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_18inSitpcStave01pos" x="0" y="13.545" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_19inSitpcStave01pos" x="0" y="16.555" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_20inSitpcStave01pos" x="0" y="19.565" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_21inSitpcStave01pos" x="0" y="22.575" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_22inSitpcStave01pos" x="0" y="25.585" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_23inSitpcStave01pos" x="0" y="28.595" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_24inSitpcStave01pos" x="0" y="31.605" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_25inSitpcStave01pos" x="0" y="34.615" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_26inSitpcStave01pos" x="0" y="37.625" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly01_27inSitpcStave01pos" x="0" y="40.635" z="0" unit="cm"/>
+    <position name="SitpcStave01_0inSITPCpos" x="0" y="28.035150491" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_0inSITPCrot" x="90" y="-6" z="0" unit="deg"/>
+    <position name="SitpcStave01_1inSITPCpos" x="5.64343430431" y="27.4612693135" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_1inSITPCrot" x="90" y="-17.6129032258" z="0" unit="deg"/>
+    <position name="SitpcStave01_2inSITPCpos" x="11.0558257451" y="25.7631205437" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_2inSITPCrot" x="90" y="-29.2258064516" z="0" unit="deg"/>
+    <position name="SitpcStave01_3inSITPCpos" x="16.0155903809" y="23.0102265918" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_3inSITPCrot" x="90" y="-40.8387096774" z="0" unit="deg"/>
+    <position name="SitpcStave01_4inSITPCpos" x="20.3196748648" y="19.3152912596" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_4inSITPCrot" x="90" y="-52.4516129032" z="0" unit="deg"/>
+    <position name="SitpcStave01_5inSITPCpos" x="23.7918694722" y="14.8295856339" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_5inSITPCrot" x="90" y="-64.064516129" z="0" unit="deg"/>
+    <position name="SitpcStave01_6inSITPCpos" x="26.290022148" y="9.73675502983" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_6inSITPCrot" x="90" y="-75.6774193548" z="0" unit="deg"/>
+    <position name="SitpcStave01_7inSITPCpos" x="27.7118582282" y="4.24530053087" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_7inSITPCrot" x="90" y="-87.2903225806" z="0" unit="deg"/>
+    <position name="SitpcStave01_8inSITPCpos" x="27.9991675764" y="-1.41995707064" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_8inSITPCrot" x="-90" y="-81.0967741935" z="180" unit="deg"/>
+    <position name="SitpcStave01_9inSITPCpos" x="27.1401877144" y="-7.02708146283" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_9inSITPCrot" x="-90" y="-69.4838709677" z="180" unit="deg"/>
+    <position name="SitpcStave01_10inSITPCpos" x="25.1700853784" y="-12.3465163143" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_10inSITPCrot" x="-90" y="-57.8709677419" z="180" unit="deg"/>
+    <position name="SitpcStave01_11inSITPCpos" x="22.1695167897" y="-17.1604833372" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_11inSITPCrot" x="-90" y="-46.2580645161" z="180" unit="deg"/>
+    <position name="SitpcStave01_12inSITPCpos" x="18.2613255788" y="-21.271898156" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_12inSITPCrot" x="-90" y="-34.6451612903" z="180" unit="deg"/>
+    <position name="SitpcStave01_13inSITPCpos" x="13.6055135532" y="-24.5124389649" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_13inSITPCrot" x="-90" y="-23.0322580645" z="180" unit="deg"/>
+    <position name="SitpcStave01_14inSITPCpos" x="8.39269020403" y="-26.7494376426" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_14inSITPCrot" x="-90" y="-11.4193548387" z="180" unit="deg"/>
+    <position name="SitpcStave01_15inSITPCpos" x="2.83626913184" y="-27.8913112002" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_15inSITPCrot" x="-90" y="0.193548387097" z="180" unit="deg"/>
+    <position name="SitpcStave01_16inSITPCpos" x="-2.83626913184" y="-27.8913112002" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_16inSITPCrot" x="-90" y="11.8064516129" z="180" unit="deg"/>
+    <position name="SitpcStave01_17inSITPCpos" x="-8.39269020403" y="-26.7494376426" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_17inSITPCrot" x="-90" y="23.4193548387" z="180" unit="deg"/>
+    <position name="SitpcStave01_18inSITPCpos" x="-13.6055135532" y="-24.5124389649" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_18inSITPCrot" x="-90" y="35.0322580645" z="180" unit="deg"/>
+    <position name="SitpcStave01_19inSITPCpos" x="-18.2613255788" y="-21.271898156" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_19inSITPCrot" x="-90" y="46.6451612903" z="180" unit="deg"/>
+    <position name="SitpcStave01_20inSITPCpos" x="-22.1695167897" y="-17.1604833372" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_20inSITPCrot" x="-90" y="58.2580645161" z="180" unit="deg"/>
+    <position name="SitpcStave01_21inSITPCpos" x="-25.1700853784" y="-12.3465163143" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_21inSITPCrot" x="-90" y="69.8709677419" z="180" unit="deg"/>
+    <position name="SitpcStave01_22inSITPCpos" x="-27.1401877144" y="-7.02708146283" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_22inSITPCrot" x="-90" y="81.4838709677" z="180" unit="deg"/>
+    <position name="SitpcStave01_23inSITPCpos" x="-27.9991675764" y="-1.41995707064" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_23inSITPCrot" x="90" y="86.9032258065" z="0" unit="deg"/>
+    <position name="SitpcStave01_24inSITPCpos" x="-27.7118582282" y="4.24530053087" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_24inSITPCrot" x="90" y="75.2903225806" z="0" unit="deg"/>
+    <position name="SitpcStave01_25inSITPCpos" x="-26.290022148" y="9.73675502983" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_25inSITPCrot" x="90" y="63.6774193548" z="0" unit="deg"/>
+    <position name="SitpcStave01_26inSITPCpos" x="-23.7918694722" y="14.8295856339" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_26inSITPCrot" x="90" y="52.064516129" z="0" unit="deg"/>
+    <position name="SitpcStave01_27inSITPCpos" x="-20.3196748648" y="19.3152912596" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_27inSITPCrot" x="90" y="40.4516129032" z="0" unit="deg"/>
+    <position name="SitpcStave01_28inSITPCpos" x="-16.0155903809" y="23.0102265918" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_28inSITPCrot" x="90" y="28.8387096774" z="0" unit="deg"/>
+    <position name="SitpcStave01_29inSITPCpos" x="-11.0558257451" y="25.7631205437" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_29inSITPCrot" x="90" y="17.2258064516" z="0" unit="deg"/>
+    <position name="SitpcStave01_30inSITPCpos" x="-5.64343430431" y="27.4612693135" z="0" unit="cm"/>
+    <rotation name="SitpcStave01_30inSITPCrot" x="90" y="5.61290322581" z="0" unit="deg"/>
+    <position name="SitpcCellFlexLayer02_0inSitpcChipAssembly02pos" x="0" y="0" z="-0.980362971082" unit="cm"/>
+    <position name="SitpcAluStrips02_0inSitpcChipAssembly02pos" x="0" y="0" z="-0.935362971082" unit="cm"/>
+    <position name="SitpcMimosaCore02_0inSitpcMimosaShell02pos" x="-0.1" y="0" z="0" unit="cm"/>
+    <position name="SitpcMimosaShell02_0inSitpcChipAssembly02pos" x="0" y="0" z="-0.917862971082" unit="cm"/>
+    <position name="SitpcColdPlate02_0inSitpcChipAssembly02pos" x="0" y="0" z="-0.893362971082" unit="cm"/>
+    <position name="SitpcWaterPipe02_0inSitpcChipAssembly02pos" x="1" y="0" z="-0.817662971082" unit="cm"/>
+    <rotation name="SitpcWaterPipe02_0inSitpcChipAssembly02rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcWater02_0inSitpcChipAssembly02pos" x="1" y="0" z="-0.817662971082" unit="cm"/>
+    <rotation name="SitpcWater02_0inSitpcChipAssembly02rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcWaterPipe02_1inSitpcChipAssembly02pos" x="-1" y="0" z="-0.817662971082" unit="cm"/>
+    <rotation name="SitpcWaterPipe02_1inSitpcChipAssembly02rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcWater02_1inSitpcChipAssembly02pos" x="-1" y="0" z="-0.817662971082" unit="cm"/>
+    <rotation name="SitpcWater02_1inSitpcChipAssembly02rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcEnforcementBeamApex02_0inSitpcChipAssembly02pos" x="0" y="0" z="0.837593825719" unit="cm"/>
+    <rotation name="SitpcEnforcementBeamApex02_0inSitpcChipAssembly02rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcEnforcementBeamBase02_0inSitpcChipAssembly02pos" x="-2.88" y="0" z="-0.83672195493" unit="cm"/>
+    <position name="SitpcEnforcementBeamBase02_1inSitpcChipAssembly02pos" x="2.88" y="0" z="-0.83672195493" unit="cm"/>
+    <rotation name="SitpcEnforcementBeamBase02_1inSitpcChipAssembly02rot" x="0" y="0" z="-180" unit="deg"/>
+    <position name="SitpcFlatRoof02_2inSitpcSideWall02pos" x="0" y="0" z="0.01" unit="cm"/>
+    <position name="SitpcRoofSideBeam02_0inSitpcSideWall02pos" x="0" y="-1.12875" z="-0.0025" unit="cm"/>
+    <rotation name="SitpcRoofSideBeam02_0inSitpcSideWall02rot" x="0" y="-0" z="-11.4637922798" unit="deg"/>
+    <position name="SitpcRoofSideBeam02_1inSitpcSideWall02pos" x="0" y="-0.37625" z="-0.0025" unit="cm"/>
+    <rotation name="SitpcRoofSideBeam02_1inSitpcSideWall02rot" x="0" y="-0" z="11.4637922798" unit="deg"/>
+    <position name="SitpcRoofSideBeam02_2inSitpcSideWall02pos" x="0" y="0.37625" z="-0.0025" unit="cm"/>
+    <rotation name="SitpcRoofSideBeam02_2inSitpcSideWall02rot" x="0" y="-0" z="-11.4637922798" unit="deg"/>
+    <position name="SitpcRoofSideBeam02_3inSitpcSideWall02pos" x="0" y="1.12875" z="-0.0025" unit="cm"/>
+    <rotation name="SitpcRoofSideBeam02_3inSitpcSideWall02rot" x="0" y="-0" z="11.4637922798" unit="deg"/>
+    <position name="SitpcSideWall02_0inSitpcChipAssembly02pos" x="1.50625" y="0" z="0.0054877502499" unit="cm"/>
+    <rotation name="SitpcSideWall02_0inSitpcChipAssembly02rot" x="0" y="-30" z="0" unit="deg"/>
+    <position name="SitpcSideWall02_1inSitpcChipAssembly02pos" x="-1.50625" y="0" z="0.0054877502499" unit="cm"/>
+    <rotation name="SitpcSideWall02_1inSitpcChipAssembly02rot" x="0" y="30" z="180" unit="deg"/>
+    <position name="SitpcChipAssembly02_0inSitpcStave02pos" x="0" y="-40.635" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_1inSitpcStave02pos" x="0" y="-37.625" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_2inSitpcStave02pos" x="0" y="-34.615" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_3inSitpcStave02pos" x="0" y="-31.605" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_4inSitpcStave02pos" x="0" y="-28.595" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_5inSitpcStave02pos" x="0" y="-25.585" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_6inSitpcStave02pos" x="0" y="-22.575" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_7inSitpcStave02pos" x="0" y="-19.565" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_8inSitpcStave02pos" x="0" y="-16.555" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_9inSitpcStave02pos" x="0" y="-13.545" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_10inSitpcStave02pos" x="0" y="-10.535" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_11inSitpcStave02pos" x="0" y="-7.525" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_12inSitpcStave02pos" x="0" y="-4.515" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_13inSitpcStave02pos" x="0" y="-1.505" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_14inSitpcStave02pos" x="0" y="1.505" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_15inSitpcStave02pos" x="0" y="4.515" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_16inSitpcStave02pos" x="0" y="7.525" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_17inSitpcStave02pos" x="0" y="10.535" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_18inSitpcStave02pos" x="0" y="13.545" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_19inSitpcStave02pos" x="0" y="16.555" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_20inSitpcStave02pos" x="0" y="19.565" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_21inSitpcStave02pos" x="0" y="22.575" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_22inSitpcStave02pos" x="0" y="25.585" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_23inSitpcStave02pos" x="0" y="28.595" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_24inSitpcStave02pos" x="0" y="31.605" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_25inSitpcStave02pos" x="0" y="34.615" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_26inSitpcStave02pos" x="0" y="37.625" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly02_27inSitpcStave02pos" x="0" y="40.635" z="0" unit="cm"/>
+    <position name="SitpcStave02_0inSITPCpos" x="0" y="32.6551753285" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_0inSITPCrot" x="90" y="-6" z="0" unit="deg"/>
+    <position name="SitpcStave02_1inSITPCpos" x="5.67051168718" y="32.1590698394" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_1inSITPCrot" x="90" y="-16" z="0" unit="deg"/>
+    <position name="SitpcStave02_2inSITPCpos" x="11.1687277462" y="30.6858272866" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_2inSITPCrot" x="90" y="-26" z="0" unit="deg"/>
+    <position name="SitpcStave02_3inSITPCpos" x="16.3275876642" y="28.2802113995" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_3inSITPCrot" x="90" y="-36" z="0" unit="deg"/>
+    <position name="SitpcStave02_4inSITPCpos" x="20.9903420933" y="25.0153155994" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_4inSITPCrot" x="90" y="-46" z="0" unit="deg"/>
+    <position name="SitpcStave02_5inSITPCpos" x="25.0153155994" y="20.9903420933" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_5inSITPCrot" x="90" y="-56" z="0" unit="deg"/>
+    <position name="SitpcStave02_6inSITPCpos" x="28.2802113995" y="16.3275876642" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_6inSITPCrot" x="90" y="-66" z="0" unit="deg"/>
+    <position name="SitpcStave02_7inSITPCpos" x="30.6858272866" y="11.1687277462" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_7inSITPCrot" x="90" y="-76" z="0" unit="deg"/>
+    <position name="SitpcStave02_8inSITPCpos" x="32.1590698394" y="5.67051168718" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_8inSITPCrot" x="90" y="-86" z="0" unit="deg"/>
+    <position name="SitpcStave02_9inSITPCpos" x="32.6551753285" y="1.99955279708e-15" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_9inSITPCrot" x="-90" y="-84" z="180" unit="deg"/>
+    <position name="SitpcStave02_10inSITPCpos" x="32.1590698394" y="-5.67051168718" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_10inSITPCrot" x="-90" y="-74" z="180" unit="deg"/>
+    <position name="SitpcStave02_11inSITPCpos" x="30.6858272866" y="-11.1687277462" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_11inSITPCrot" x="-90" y="-64" z="180" unit="deg"/>
+    <position name="SitpcStave02_12inSITPCpos" x="28.2802113995" y="-16.3275876642" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_12inSITPCrot" x="-90" y="-54" z="180" unit="deg"/>
+    <position name="SitpcStave02_13inSITPCpos" x="25.0153155994" y="-20.9903420933" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_13inSITPCrot" x="-90" y="-44" z="180" unit="deg"/>
+    <position name="SitpcStave02_14inSITPCpos" x="20.9903420933" y="-25.0153155994" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_14inSITPCrot" x="-90" y="-34" z="180" unit="deg"/>
+    <position name="SitpcStave02_15inSITPCpos" x="16.3275876642" y="-28.2802113995" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_15inSITPCrot" x="-90" y="-24" z="180" unit="deg"/>
+    <position name="SitpcStave02_16inSITPCpos" x="11.1687277462" y="-30.6858272866" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_16inSITPCrot" x="-90" y="-14" z="180" unit="deg"/>
+    <position name="SitpcStave02_17inSITPCpos" x="5.67051168718" y="-32.1590698394" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_17inSITPCrot" x="-90" y="-4" z="180" unit="deg"/>
+    <position name="SitpcStave02_18inSITPCpos" x="3.99910559416e-15" y="-32.6551753285" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_18inSITPCrot" x="-90" y="6" z="180" unit="deg"/>
+    <position name="SitpcStave02_19inSITPCpos" x="-5.67051168718" y="-32.1590698394" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_19inSITPCrot" x="-90" y="16" z="180" unit="deg"/>
+    <position name="SitpcStave02_20inSITPCpos" x="-11.1687277462" y="-30.6858272866" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_20inSITPCrot" x="-90" y="26" z="180" unit="deg"/>
+    <position name="SitpcStave02_21inSITPCpos" x="-16.3275876642" y="-28.2802113995" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_21inSITPCrot" x="-90" y="36" z="180" unit="deg"/>
+    <position name="SitpcStave02_22inSITPCpos" x="-20.9903420933" y="-25.0153155994" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_22inSITPCrot" x="-90" y="46" z="180" unit="deg"/>
+    <position name="SitpcStave02_23inSITPCpos" x="-25.0153155994" y="-20.9903420933" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_23inSITPCrot" x="-90" y="56" z="180" unit="deg"/>
+    <position name="SitpcStave02_24inSITPCpos" x="-28.2802113995" y="-16.3275876642" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_24inSITPCrot" x="-90" y="66" z="180" unit="deg"/>
+    <position name="SitpcStave02_25inSITPCpos" x="-30.6858272866" y="-11.1687277462" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_25inSITPCrot" x="-90" y="76" z="180" unit="deg"/>
+    <position name="SitpcStave02_26inSITPCpos" x="-32.1590698394" y="-5.67051168718" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_26inSITPCrot" x="-90" y="86" z="180" unit="deg"/>
+    <position name="SitpcStave02_27inSITPCpos" x="-32.6551753285" y="-5.99865839124e-15" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_27inSITPCrot" x="90" y="84" z="0" unit="deg"/>
+    <position name="SitpcStave02_28inSITPCpos" x="-32.1590698394" y="5.67051168718" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_28inSITPCrot" x="90" y="74" z="0" unit="deg"/>
+    <position name="SitpcStave02_29inSITPCpos" x="-30.6858272866" y="11.1687277462" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_29inSITPCrot" x="90" y="64" z="0" unit="deg"/>
+    <position name="SitpcStave02_30inSITPCpos" x="-28.2802113995" y="16.3275876642" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_30inSITPCrot" x="90" y="54" z="0" unit="deg"/>
+    <position name="SitpcStave02_31inSITPCpos" x="-25.0153155994" y="20.9903420933" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_31inSITPCrot" x="90" y="44" z="0" unit="deg"/>
+    <position name="SitpcStave02_32inSITPCpos" x="-20.9903420933" y="25.0153155994" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_32inSITPCrot" x="90" y="34" z="0" unit="deg"/>
+    <position name="SitpcStave02_33inSITPCpos" x="-16.3275876642" y="28.2802113995" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_33inSITPCrot" x="90" y="24" z="0" unit="deg"/>
+    <position name="SitpcStave02_34inSITPCpos" x="-11.1687277462" y="30.6858272866" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_34inSITPCrot" x="90" y="14" z="0" unit="deg"/>
+    <position name="SitpcStave02_35inSITPCpos" x="-5.67051168718" y="32.1590698394" z="0" unit="cm"/>
+    <rotation name="SitpcStave02_35inSITPCrot" x="90" y="4" z="0" unit="deg"/>
+    <position name="SitpcCellFlexLayer03_0inSitpcChipAssembly03pos" x="0" y="0" z="-0.980362971082" unit="cm"/>
+    <position name="SitpcAluStrips03_0inSitpcChipAssembly03pos" x="0" y="0" z="-0.935362971082" unit="cm"/>
+    <position name="SitpcMimosaCore03_0inSitpcMimosaShell03pos" x="-0.1" y="0" z="0" unit="cm"/>
+    <position name="SitpcMimosaShell03_0inSitpcChipAssembly03pos" x="0" y="0" z="-0.917862971082" unit="cm"/>
+    <position name="SitpcColdPlate03_0inSitpcChipAssembly03pos" x="0" y="0" z="-0.893362971082" unit="cm"/>
+    <position name="SitpcWaterPipe03_0inSitpcChipAssembly03pos" x="1" y="0" z="-0.817662971082" unit="cm"/>
+    <rotation name="SitpcWaterPipe03_0inSitpcChipAssembly03rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcWater03_0inSitpcChipAssembly03pos" x="1" y="0" z="-0.817662971082" unit="cm"/>
+    <rotation name="SitpcWater03_0inSitpcChipAssembly03rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcWaterPipe03_1inSitpcChipAssembly03pos" x="-1" y="0" z="-0.817662971082" unit="cm"/>
+    <rotation name="SitpcWaterPipe03_1inSitpcChipAssembly03rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcWater03_1inSitpcChipAssembly03pos" x="-1" y="0" z="-0.817662971082" unit="cm"/>
+    <rotation name="SitpcWater03_1inSitpcChipAssembly03rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcEnforcementBeamApex03_0inSitpcChipAssembly03pos" x="0" y="0" z="0.837593825719" unit="cm"/>
+    <rotation name="SitpcEnforcementBeamApex03_0inSitpcChipAssembly03rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcEnforcementBeamBase03_0inSitpcChipAssembly03pos" x="-2.88" y="0" z="-0.83672195493" unit="cm"/>
+    <position name="SitpcEnforcementBeamBase03_1inSitpcChipAssembly03pos" x="2.88" y="0" z="-0.83672195493" unit="cm"/>
+    <rotation name="SitpcEnforcementBeamBase03_1inSitpcChipAssembly03rot" x="0" y="0" z="-180" unit="deg"/>
+    <position name="SitpcFlatRoof03_2inSitpcSideWall03pos" x="0" y="0" z="0.01" unit="cm"/>
+    <position name="SitpcRoofSideBeam03_0inSitpcSideWall03pos" x="0" y="-1.12875" z="-0.0025" unit="cm"/>
+    <rotation name="SitpcRoofSideBeam03_0inSitpcSideWall03rot" x="0" y="-0" z="-11.4637922798" unit="deg"/>
+    <position name="SitpcRoofSideBeam03_1inSitpcSideWall03pos" x="0" y="-0.37625" z="-0.0025" unit="cm"/>
+    <rotation name="SitpcRoofSideBeam03_1inSitpcSideWall03rot" x="0" y="-0" z="11.4637922798" unit="deg"/>
+    <position name="SitpcRoofSideBeam03_2inSitpcSideWall03pos" x="0" y="0.37625" z="-0.0025" unit="cm"/>
+    <rotation name="SitpcRoofSideBeam03_2inSitpcSideWall03rot" x="0" y="-0" z="-11.4637922798" unit="deg"/>
+    <position name="SitpcRoofSideBeam03_3inSitpcSideWall03pos" x="0" y="1.12875" z="-0.0025" unit="cm"/>
+    <rotation name="SitpcRoofSideBeam03_3inSitpcSideWall03rot" x="0" y="-0" z="11.4637922798" unit="deg"/>
+    <position name="SitpcSideWall03_0inSitpcChipAssembly03pos" x="1.50625" y="0" z="0.0054877502499" unit="cm"/>
+    <rotation name="SitpcSideWall03_0inSitpcChipAssembly03rot" x="0" y="-30" z="0" unit="deg"/>
+    <position name="SitpcSideWall03_1inSitpcChipAssembly03pos" x="-1.50625" y="0" z="0.0054877502499" unit="cm"/>
+    <rotation name="SitpcSideWall03_1inSitpcChipAssembly03rot" x="0" y="30" z="180" unit="deg"/>
+    <position name="SitpcChipAssembly03_0inSitpcStave03pos" x="0" y="-40.635" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_1inSitpcStave03pos" x="0" y="-37.625" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_2inSitpcStave03pos" x="0" y="-34.615" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_3inSitpcStave03pos" x="0" y="-31.605" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_4inSitpcStave03pos" x="0" y="-28.595" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_5inSitpcStave03pos" x="0" y="-25.585" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_6inSitpcStave03pos" x="0" y="-22.575" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_7inSitpcStave03pos" x="0" y="-19.565" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_8inSitpcStave03pos" x="0" y="-16.555" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_9inSitpcStave03pos" x="0" y="-13.545" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_10inSitpcStave03pos" x="0" y="-10.535" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_11inSitpcStave03pos" x="0" y="-7.525" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_12inSitpcStave03pos" x="0" y="-4.515" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_13inSitpcStave03pos" x="0" y="-1.505" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_14inSitpcStave03pos" x="0" y="1.505" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_15inSitpcStave03pos" x="0" y="4.515" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_16inSitpcStave03pos" x="0" y="7.525" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_17inSitpcStave03pos" x="0" y="10.535" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_18inSitpcStave03pos" x="0" y="13.545" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_19inSitpcStave03pos" x="0" y="16.555" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_20inSitpcStave03pos" x="0" y="19.565" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_21inSitpcStave03pos" x="0" y="22.575" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_22inSitpcStave03pos" x="0" y="25.585" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_23inSitpcStave03pos" x="0" y="28.595" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_24inSitpcStave03pos" x="0" y="31.605" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_25inSitpcStave03pos" x="0" y="34.615" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_26inSitpcStave03pos" x="0" y="37.625" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly03_27inSitpcStave03pos" x="0" y="40.635" z="0" unit="cm"/>
+    <position name="SitpcStave03_0inSITPCpos" x="0" y="37.275193854" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_0inSITPCrot" x="90" y="-6" z="0" unit="deg"/>
+    <position name="SitpcStave03_1inSITPCpos" x="5.55557936416" y="36.8588607364" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_1inSITPCrot" x="90" y="-14.5714285714" z="0" unit="deg"/>
+    <position name="SitpcStave03_2inSITPCpos" x="10.9870562656" y="35.6191615773" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_2inSITPCrot" x="90" y="-23.1428571429" z="0" unit="deg"/>
+    <position name="SitpcStave03_3inSITPCpos" x="16.1731004857" y="33.5837892075" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_3inSITPCrot" x="90" y="-31.7142857143" z="0" unit="deg"/>
+    <position name="SitpcStave03_4inSITPCpos" x="20.9978643662" y="30.7982104823" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_4inSITPCrot" x="90" y="-40.2857142857" z="0" unit="deg"/>
+    <position name="SitpcStave03_5inSITPCpos" x="25.3535706546" y="27.3246506275" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_5inSITPCrot" x="90" y="-48.8571428571" z="0" unit="deg"/>
+    <position name="SitpcStave03_6inSITPCpos" x="29.1429200702" y="23.2407032303" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_6inSITPCrot" x="90" y="-57.4285714286" z="0" unit="deg"/>
+    <position name="SitpcStave03_7inSITPCpos" x="32.2812648086" y="18.637596927" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_7inSITPCrot" x="90" y="-66" z="0" unit="deg"/>
+    <position name="SitpcStave03_8inSITPCpos" x="34.6984994343" y="13.6181575061" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_8inSITPCrot" x="90" y="-74.5714285714" z="0" unit="deg"/>
+    <position name="SitpcStave03_9inSITPCpos" x="36.3406269203" y="8.2945109498" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_9inSITPCrot" x="90" y="-83.1428571429" z="0" unit="deg"/>
+    <position name="SitpcStave03_10inSITPCpos" x="37.1709648519" y="2.78557872516" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_10inSITPCrot" x="-90" y="-88.2857142857" z="180" unit="deg"/>
+    <position name="SitpcStave03_11inSITPCpos" x="37.1709648519" y="-2.78557872516" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_11inSITPCrot" x="-90" y="-79.7142857143" z="180" unit="deg"/>
+    <position name="SitpcStave03_12inSITPCpos" x="36.3406269203" y="-8.2945109498" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_12inSITPCrot" x="-90" y="-71.1428571429" z="180" unit="deg"/>
+    <position name="SitpcStave03_13inSITPCpos" x="34.6984994343" y="-13.6181575061" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_13inSITPCrot" x="-90" y="-62.5714285714" z="180" unit="deg"/>
+    <position name="SitpcStave03_14inSITPCpos" x="32.2812648086" y="-18.637596927" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_14inSITPCrot" x="-90" y="-54" z="180" unit="deg"/>
+    <position name="SitpcStave03_15inSITPCpos" x="29.1429200702" y="-23.2407032303" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_15inSITPCrot" x="-90" y="-45.4285714286" z="180" unit="deg"/>
+    <position name="SitpcStave03_16inSITPCpos" x="25.3535706546" y="-27.3246506275" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_16inSITPCrot" x="-90" y="-36.8571428571" z="180" unit="deg"/>
+    <position name="SitpcStave03_17inSITPCpos" x="20.9978643662" y="-30.7982104823" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_17inSITPCrot" x="-90" y="-28.2857142857" z="180" unit="deg"/>
+    <position name="SitpcStave03_18inSITPCpos" x="16.1731004857" y="-33.5837892075" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_18inSITPCrot" x="-90" y="-19.7142857143" z="180" unit="deg"/>
+    <position name="SitpcStave03_19inSITPCpos" x="10.9870562656" y="-35.6191615773" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_19inSITPCrot" x="-90" y="-11.1428571429" z="180" unit="deg"/>
+    <position name="SitpcStave03_20inSITPCpos" x="5.55557936416" y="-36.8588607364" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_20inSITPCrot" x="-90" y="-2.57142857143" z="180" unit="deg"/>
+    <position name="SitpcStave03_21inSITPCpos" x="4.56489468409e-15" y="-37.275193854" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_21inSITPCrot" x="-90" y="6" z="180" unit="deg"/>
+    <position name="SitpcStave03_22inSITPCpos" x="-5.55557936416" y="-36.8588607364" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_22inSITPCrot" x="-90" y="14.5714285714" z="180" unit="deg"/>
+    <position name="SitpcStave03_23inSITPCpos" x="-10.9870562656" y="-35.6191615773" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_23inSITPCrot" x="-90" y="23.1428571429" z="180" unit="deg"/>
+    <position name="SitpcStave03_24inSITPCpos" x="-16.1731004857" y="-33.5837892075" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_24inSITPCrot" x="-90" y="31.7142857143" z="180" unit="deg"/>
+    <position name="SitpcStave03_25inSITPCpos" x="-20.9978643662" y="-30.7982104823" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_25inSITPCrot" x="-90" y="40.2857142857" z="180" unit="deg"/>
+    <position name="SitpcStave03_26inSITPCpos" x="-25.3535706546" y="-27.3246506275" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_26inSITPCrot" x="-90" y="48.8571428571" z="180" unit="deg"/>
+    <position name="SitpcStave03_27inSITPCpos" x="-29.1429200702" y="-23.2407032303" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_27inSITPCrot" x="-90" y="57.4285714286" z="180" unit="deg"/>
+    <position name="SitpcStave03_28inSITPCpos" x="-32.2812648086" y="-18.637596927" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_28inSITPCrot" x="-90" y="66" z="180" unit="deg"/>
+    <position name="SitpcStave03_29inSITPCpos" x="-34.6984994343" y="-13.6181575061" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_29inSITPCrot" x="-90" y="74.5714285714" z="180" unit="deg"/>
+    <position name="SitpcStave03_30inSITPCpos" x="-36.3406269203" y="-8.2945109498" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_30inSITPCrot" x="-90" y="83.1428571429" z="180" unit="deg"/>
+    <position name="SitpcStave03_31inSITPCpos" x="-37.1709648519" y="-2.78557872516" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_31inSITPCrot" x="90" y="88.2857142857" z="0" unit="deg"/>
+    <position name="SitpcStave03_32inSITPCpos" x="-37.1709648519" y="2.78557872516" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_32inSITPCrot" x="90" y="79.7142857143" z="0" unit="deg"/>
+    <position name="SitpcStave03_33inSITPCpos" x="-36.3406269203" y="8.2945109498" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_33inSITPCrot" x="90" y="71.1428571429" z="0" unit="deg"/>
+    <position name="SitpcStave03_34inSITPCpos" x="-34.6984994343" y="13.6181575061" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_34inSITPCrot" x="90" y="62.5714285714" z="0" unit="deg"/>
+    <position name="SitpcStave03_35inSITPCpos" x="-32.2812648086" y="18.637596927" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_35inSITPCrot" x="90" y="54" z="0" unit="deg"/>
+    <position name="SitpcStave03_36inSITPCpos" x="-29.1429200702" y="23.2407032303" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_36inSITPCrot" x="90" y="45.4285714286" z="0" unit="deg"/>
+    <position name="SitpcStave03_37inSITPCpos" x="-25.3535706546" y="27.3246506275" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_37inSITPCrot" x="90" y="36.8571428571" z="0" unit="deg"/>
+    <position name="SitpcStave03_38inSITPCpos" x="-20.9978643662" y="30.7982104823" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_38inSITPCrot" x="90" y="28.2857142857" z="0" unit="deg"/>
+    <position name="SitpcStave03_39inSITPCpos" x="-16.1731004857" y="33.5837892075" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_39inSITPCrot" x="90" y="19.7142857143" z="0" unit="deg"/>
+    <position name="SitpcStave03_40inSITPCpos" x="-10.9870562656" y="35.6191615773" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_40inSITPCrot" x="90" y="11.1428571429" z="0" unit="deg"/>
+    <position name="SitpcStave03_41inSITPCpos" x="-5.55557936416" y="36.8588607364" z="0" unit="cm"/>
+    <rotation name="SitpcStave03_41inSITPCrot" x="90" y="2.57142857143" z="0" unit="deg"/>
+    <position name="SitpcCellFlexLayer04_0inSitpcChipAssembly04pos" x="0" y="0" z="-0.980362971082" unit="cm"/>
+    <position name="SitpcAluStrips04_0inSitpcChipAssembly04pos" x="0" y="0" z="-0.935362971082" unit="cm"/>
+    <position name="SitpcMimosaCore04_0inSitpcMimosaShell04pos" x="-0.1" y="0" z="0" unit="cm"/>
+    <position name="SitpcMimosaShell04_0inSitpcChipAssembly04pos" x="0" y="0" z="-0.917862971082" unit="cm"/>
+    <position name="SitpcColdPlate04_0inSitpcChipAssembly04pos" x="0" y="0" z="-0.893362971082" unit="cm"/>
+    <position name="SitpcWaterPipe04_0inSitpcChipAssembly04pos" x="1" y="0" z="-0.817662971082" unit="cm"/>
+    <rotation name="SitpcWaterPipe04_0inSitpcChipAssembly04rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcWater04_0inSitpcChipAssembly04pos" x="1" y="0" z="-0.817662971082" unit="cm"/>
+    <rotation name="SitpcWater04_0inSitpcChipAssembly04rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcWaterPipe04_1inSitpcChipAssembly04pos" x="-1" y="0" z="-0.817662971082" unit="cm"/>
+    <rotation name="SitpcWaterPipe04_1inSitpcChipAssembly04rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcWater04_1inSitpcChipAssembly04pos" x="-1" y="0" z="-0.817662971082" unit="cm"/>
+    <rotation name="SitpcWater04_1inSitpcChipAssembly04rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcEnforcementBeamApex04_0inSitpcChipAssembly04pos" x="0" y="0" z="0.837593825719" unit="cm"/>
+    <rotation name="SitpcEnforcementBeamApex04_0inSitpcChipAssembly04rot" x="-90" y="-0" z="0" unit="deg"/>
+    <position name="SitpcEnforcementBeamBase04_0inSitpcChipAssembly04pos" x="-2.88" y="0" z="-0.83672195493" unit="cm"/>
+    <position name="SitpcEnforcementBeamBase04_1inSitpcChipAssembly04pos" x="2.88" y="0" z="-0.83672195493" unit="cm"/>
+    <rotation name="SitpcEnforcementBeamBase04_1inSitpcChipAssembly04rot" x="0" y="0" z="-180" unit="deg"/>
+    <position name="SitpcFlatRoof04_2inSitpcSideWall04pos" x="0" y="0" z="0.01" unit="cm"/>
+    <position name="SitpcRoofSideBeam04_0inSitpcSideWall04pos" x="0" y="-1.12875" z="-0.0025" unit="cm"/>
+    <rotation name="SitpcRoofSideBeam04_0inSitpcSideWall04rot" x="0" y="-0" z="-11.4637922798" unit="deg"/>
+    <position name="SitpcRoofSideBeam04_1inSitpcSideWall04pos" x="0" y="-0.37625" z="-0.0025" unit="cm"/>
+    <rotation name="SitpcRoofSideBeam04_1inSitpcSideWall04rot" x="0" y="-0" z="11.4637922798" unit="deg"/>
+    <position name="SitpcRoofSideBeam04_2inSitpcSideWall04pos" x="0" y="0.37625" z="-0.0025" unit="cm"/>
+    <rotation name="SitpcRoofSideBeam04_2inSitpcSideWall04rot" x="0" y="-0" z="-11.4637922798" unit="deg"/>
+    <position name="SitpcRoofSideBeam04_3inSitpcSideWall04pos" x="0" y="1.12875" z="-0.0025" unit="cm"/>
+    <rotation name="SitpcRoofSideBeam04_3inSitpcSideWall04rot" x="0" y="-0" z="11.4637922798" unit="deg"/>
+    <position name="SitpcSideWall04_0inSitpcChipAssembly04pos" x="1.50625" y="0" z="0.0054877502499" unit="cm"/>
+    <rotation name="SitpcSideWall04_0inSitpcChipAssembly04rot" x="0" y="-30" z="0" unit="deg"/>
+    <position name="SitpcSideWall04_1inSitpcChipAssembly04pos" x="-1.50625" y="0" z="0.0054877502499" unit="cm"/>
+    <rotation name="SitpcSideWall04_1inSitpcChipAssembly04rot" x="0" y="30" z="180" unit="deg"/>
+    <position name="SitpcChipAssembly04_0inSitpcStave04pos" x="0" y="-40.635" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_1inSitpcStave04pos" x="0" y="-37.625" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_2inSitpcStave04pos" x="0" y="-34.615" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_3inSitpcStave04pos" x="0" y="-31.605" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_4inSitpcStave04pos" x="0" y="-28.595" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_5inSitpcStave04pos" x="0" y="-25.585" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_6inSitpcStave04pos" x="0" y="-22.575" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_7inSitpcStave04pos" x="0" y="-19.565" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_8inSitpcStave04pos" x="0" y="-16.555" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_9inSitpcStave04pos" x="0" y="-13.545" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_10inSitpcStave04pos" x="0" y="-10.535" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_11inSitpcStave04pos" x="0" y="-7.525" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_12inSitpcStave04pos" x="0" y="-4.515" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_13inSitpcStave04pos" x="0" y="-1.505" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_14inSitpcStave04pos" x="0" y="1.505" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_15inSitpcStave04pos" x="0" y="4.515" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_16inSitpcStave04pos" x="0" y="7.525" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_17inSitpcStave04pos" x="0" y="10.535" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_18inSitpcStave04pos" x="0" y="13.545" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_19inSitpcStave04pos" x="0" y="16.555" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_20inSitpcStave04pos" x="0" y="19.565" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_21inSitpcStave04pos" x="0" y="22.575" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_22inSitpcStave04pos" x="0" y="25.585" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_23inSitpcStave04pos" x="0" y="28.595" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_24inSitpcStave04pos" x="0" y="31.605" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_25inSitpcStave04pos" x="0" y="34.615" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_26inSitpcStave04pos" x="0" y="37.625" z="0" unit="cm"/>
+    <position name="SitpcChipAssembly04_27inSitpcStave04pos" x="0" y="40.635" z="0" unit="cm"/>
+    <position name="SitpcStave04_0inSITPCpos" x="0" y="41.8952082025" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_0inSITPCrot" x="90" y="-6" z="0" unit="deg"/>
+    <position name="SitpcStave04_1inSITPCpos" x="5.58408474606" y="41.521397711" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_1inSITPCrot" x="90" y="-13.6595744681" z="0" unit="deg"/>
+    <position name="SitpcStave04_2inSITPCpos" x="11.0685213675" y="40.4066368938" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_2inSITPCrot" x="90" y="-21.3191489362" z="0" unit="deg"/>
+    <position name="SitpcStave04_3inSITPCpos" x="16.355439963" y="38.5708186839" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_3inSITPCrot" x="90" y="-28.9787234043" z="0" unit="deg"/>
+    <position name="SitpcStave04_4inSITPCpos" x="21.3504953448" y="36.0467033008" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_4inSITPCrot" x="90" y="-36.6382978723" z="0" unit="deg"/>
+    <position name="SitpcStave04_5inSITPCpos" x="25.9645506315" y="32.8793336434" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_5inSITPCrot" x="90" y="-44.2978723404" z="0" unit="deg"/>
+    <position name="SitpcStave04_6inSITPCpos" x="30.1152678969" y="29.1252314982" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_6inSITPCrot" x="90" y="-51.9574468085" z="0" unit="deg"/>
+    <position name="SitpcStave04_7inSITPCpos" x="33.7285774934" y="24.8513889069" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_7inSITPCrot" x="90" y="-59.6170212766" z="0" unit="deg"/>
+    <position name="SitpcStave04_8inSITPCpos" x="36.7399998254" y="20.1340726919" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_8inSITPCrot" x="90" y="-67.2765957447" z="0" unit="deg"/>
+    <position name="SitpcStave04_9inSITPCpos" x="39.0957959901" y="15.0574634726" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_9inSITPCrot" x="90" y="-74.9361702128" z="0" unit="deg"/>
+    <position name="SitpcStave04_10inSITPCpos" x="40.7539267492" y="9.71215346099" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_10inSITPCrot" x="90" y="-82.5957446809" z="0" unit="deg"/>
+    <position name="SitpcStave04_11inSITPCpos" x="41.68480272" y="4.19352984076" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_11inSITPCrot" x="-90" y="-89.7446808511" z="180" unit="deg"/>
+    <position name="SitpcStave04_12inSITPCpos" x="41.8718123987" y="-1.39992741882" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_12inSITPCrot" x="-90" y="-82.085106383" z="180" unit="deg"/>
+    <position name="SitpcStave04_13inSITPCpos" x="41.3116185932" y="-6.96840294044" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_13inSITPCrot" x="-90" y="-74.4255319149" z="180" unit="deg"/>
+    <position name="SitpcStave04_14inSITPCpos" x="40.0142179752" y="-12.4125271465" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_14inSITPCrot" x="-90" y="-66.7659574468" z="180" unit="deg"/>
+    <position name="SitpcStave04_15inSITPCpos" x="38.0027626895" y="-17.6351495116" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_15inSITPCrot" x="-90" y="-59.1063829787" z="180" unit="deg"/>
+    <position name="SitpcStave04_16inSITPCpos" x="35.3131472033" y="-22.5430722159" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_16inSITPCrot" x="-90" y="-51.4468085106" z="180" unit="deg"/>
+    <position name="SitpcStave04_17inSITPCpos" x="31.9933677686" y="-27.0487132624" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_17inSITPCrot" x="-90" y="-43.7872340426" z="180" unit="deg"/>
+    <position name="SitpcStave04_18inSITPCpos" x="28.1026659282" y="-31.0716693799" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_18inSITPCrot" x="-90" y="-36.1276595745" z="180" unit="deg"/>
+    <position name="SitpcStave04_19inSITPCpos" x="23.7104713486" y="-34.5401508213" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_19inSITPCrot" x="-90" y="-28.4680851064" z="180" unit="deg"/>
+    <position name="SitpcStave04_20inSITPCpos" x="18.895162846" y="-37.392262453" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_20inSITPCrot" x="-90" y="-20.8085106383" z="180" unit="deg"/>
+    <position name="SitpcStave04_21inSITPCpos" x="13.7426697148" y="-39.5771082754" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_21inSITPCrot" x="-90" y="-13.1489361702" z="180" unit="deg"/>
+    <position name="SitpcStave04_22inSITPCpos" x="8.34493831694" y="-41.055699663" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_22inSITPCrot" x="-90" y="-5.48936170213" z="180" unit="deg"/>
+    <position name="SitpcStave04_23inSITPCpos" x="2.79829129714" y="-41.8016511175" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_23inSITPCrot" x="-90" y="2.17021276596" z="180" unit="deg"/>
+    <position name="SitpcStave04_24inSITPCpos" x="-2.79829129714" y="-41.8016511175" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_24inSITPCrot" x="-90" y="9.82978723404" z="180" unit="deg"/>
+    <position name="SitpcStave04_25inSITPCpos" x="-8.34493831694" y="-41.055699663" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_25inSITPCrot" x="-90" y="17.4893617021" z="180" unit="deg"/>
+    <position name="SitpcStave04_26inSITPCpos" x="-13.7426697148" y="-39.5771082754" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_26inSITPCrot" x="-90" y="25.1489361702" z="180" unit="deg"/>
+    <position name="SitpcStave04_27inSITPCpos" x="-18.895162846" y="-37.392262453" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_27inSITPCrot" x="-90" y="32.8085106383" z="180" unit="deg"/>
+    <position name="SitpcStave04_28inSITPCpos" x="-23.7104713486" y="-34.5401508213" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_28inSITPCrot" x="-90" y="40.4680851064" z="180" unit="deg"/>
+    <position name="SitpcStave04_29inSITPCpos" x="-28.1026659282" y="-31.0716693799" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_29inSITPCrot" x="-90" y="48.1276595745" z="180" unit="deg"/>
+    <position name="SitpcStave04_30inSITPCpos" x="-31.9933677686" y="-27.0487132624" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_30inSITPCrot" x="-90" y="55.7872340426" z="180" unit="deg"/>
+    <position name="SitpcStave04_31inSITPCpos" x="-35.3131472033" y="-22.5430722159" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_31inSITPCrot" x="-90" y="63.4468085106" z="180" unit="deg"/>
+    <position name="SitpcStave04_32inSITPCpos" x="-38.0027626895" y="-17.6351495116" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_32inSITPCrot" x="-90" y="71.1063829787" z="180" unit="deg"/>
+    <position name="SitpcStave04_33inSITPCpos" x="-40.0142179752" y="-12.4125271465" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_33inSITPCrot" x="-90" y="78.7659574468" z="180" unit="deg"/>
+    <position name="SitpcStave04_34inSITPCpos" x="-41.3116185932" y="-6.96840294044" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_34inSITPCrot" x="-90" y="86.4255319149" z="180" unit="deg"/>
+    <position name="SitpcStave04_35inSITPCpos" x="-41.8718123987" y="-1.39992741882" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_35inSITPCrot" x="90" y="85.914893617" z="0" unit="deg"/>
+    <position name="SitpcStave04_36inSITPCpos" x="-41.68480272" y="4.19352984076" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_36inSITPCrot" x="90" y="78.2553191489" z="0" unit="deg"/>
+    <position name="SitpcStave04_37inSITPCpos" x="-40.7539267492" y="9.71215346099" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_37inSITPCrot" x="90" y="70.5957446809" z="0" unit="deg"/>
+    <position name="SitpcStave04_38inSITPCpos" x="-39.0957959901" y="15.0574634726" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_38inSITPCrot" x="90" y="62.9361702128" z="0" unit="deg"/>
+    <position name="SitpcStave04_39inSITPCpos" x="-36.7399998254" y="20.1340726919" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_39inSITPCrot" x="90" y="55.2765957447" z="0" unit="deg"/>
+    <position name="SitpcStave04_40inSITPCpos" x="-33.7285774934" y="24.8513889069" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_40inSITPCrot" x="90" y="47.6170212766" z="0" unit="deg"/>
+    <position name="SitpcStave04_41inSITPCpos" x="-30.1152678969" y="29.1252314982" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_41inSITPCrot" x="90" y="39.9574468085" z="0" unit="deg"/>
+    <position name="SitpcStave04_42inSITPCpos" x="-25.9645506315" y="32.8793336434" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_42inSITPCrot" x="90" y="32.2978723404" z="0" unit="deg"/>
+    <position name="SitpcStave04_43inSITPCpos" x="-21.3504953448" y="36.0467033008" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_43inSITPCrot" x="90" y="24.6382978723" z="0" unit="deg"/>
+    <position name="SitpcStave04_44inSITPCpos" x="-16.355439963" y="38.5708186839" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_44inSITPCrot" x="90" y="16.9787234043" z="0" unit="deg"/>
+    <position name="SitpcStave04_45inSITPCpos" x="-11.0685213675" y="40.4066368938" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_45inSITPCrot" x="90" y="9.31914893617" z="0" unit="deg"/>
+    <position name="SitpcStave04_46inSITPCpos" x="-5.58408474606" y="41.521397711" z="0" unit="cm"/>
+    <rotation name="SitpcStave04_46inSITPCrot" x="90" y="1.65957446809" z="0" unit="deg"/>
+    <position name="SITPC_0inSitpcGeantGeoWrapperpos" x="0" y="0" z="0" unit="cm"/>
+  </define>
+  <materials>
+    <element name="NITROGEN_elm" formula="N" Z="7">
+      <atom unit="g/mole" value="14.00674"/>
+    </element>
+    <element name="OXYGEN_elm" formula="O" Z="8">
+      <atom unit="g/mole" value="15.9994"/>
+    </element>
+    <element name="ARGON_elm" formula="AR" Z="18">
+      <atom unit="g/mole" value="39.948"/>
+    </element>
+    <material name="air">
+      <D unit="g/cm3" value="0.001205"/>
+      <fraction n="0.0140000004321" ref="ARGON_elm"/>
+      <fraction n="0.754999995232" ref="NITROGEN_elm"/>
+      <fraction n="0.231000006199" ref="OXYGEN_elm"/>
+    </material>
+    <element name="CARBON_elm" formula="C" Z="6">
+      <atom unit="g/mole" value="12.0107"/>
+    </element>
+    <element name="HYDROGEN_elm" formula="H" Z="1">
+      <atom unit="g/mole" value="1.00794"/>
+    </element>
+    <material name="MapsKapton">
+      <D unit="g/cm3" value="1.42"/>
+      <fraction n="0.691128671169" ref="CARBON_elm"/>
+      <fraction n="0.0263643823564" ref="HYDROGEN_elm"/>
+      <fraction n="0.0732657834888" ref="NITROGEN_elm"/>
+      <fraction n="0.209241136909" ref="OXYGEN_elm"/>
+    </material>
+    <material name="aluminum" Z="13">
+      <D unit="g/cm3" value="2.7"/>
+      <atom unit="g/mole" value="26.98"/>
+    </material>
+    <material name="silicon" Z="14">
+      <D unit="g/cm3" value="2.33"/>
+      <atom unit="g/mole" value="28.086"/>
+    </material>
+    <material name="MapsCarbonFiber" Z="6">
+      <D unit="g/cm3" value="1.63"/>
+      <atom unit="g/mole" value="12.011"/>
+    </material>
+    <material name="water">
+      <D unit="g/cm3" value="1"/>
+      <fraction n="0.111900530756" ref="HYDROGEN_elm"/>
+      <fraction n="0.888099491596" ref="OXYGEN_elm"/>
+    </material>
+  </materials>
+  <solids>
+    <trd name="SitpcStave000x1" x1="7" x2="0" y1="84.28" y2="84.28" z="2.02072594216" lunit="cm"/>
+    <trd name="SitpcChipAssembly000x1" x1="7" x2="0" y1="3.01" y2="3.01" z="2.02072594216" lunit="cm"/>
+    <box name="SitpcCellFlexLayer000x1" x="6" y="3.01" z="0.06" lunit="cm"/>
+    <box name="SitpcAluStrips000x1" x="6" y="3.01" z="0.03" lunit="cm"/>
+    <box name="SitpcMimosaShell000x1" x="6" y="3" z="0.005" lunit="cm"/>
+    <box name="SitpcMimosaCore000x1" x="5.8" y="3" z="0.0018" lunit="cm"/>
+    <box name="SitpcColdPlate000x1" x="6" y="3.01" z="0.044" lunit="cm"/>
+    <tube name="SitpcWaterPipe000x1" rmin="0.0512" rmax="0.0537" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="SitpcWater000x1" rmin="0" rmax="0.0512" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="SitpcEnforcementBeamApex000x1" rmin="0" rmax="0.02" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <arb8 name="SitpcEnforcementBeamBase000x1" v1x="-0.12" v1y="-1.505" v2x="-0.12" v2y="1.505" v3x="0" v3y="1.505" v4x="0" v4y="-1.505" v5x="0" v5y="-1.505" v6x="0" v6y="1.505" v7x="0" v7y="1.505" v8x="0" v8y="-1.505" dz="0.0346410161514" lunit="cm"/>
+    <box name="SitpcSideWall000x1" x="3.46410161514" y="3.01" z="0.025" lunit="cm"/>
+    <box name="SitpcFlatRoof000x1" x="3.46410161514" y="3.01" z="0.005" lunit="cm"/>
+    <box name="SitpcRoofSideBeam000x1" x="3.2880601566" y="0.05" z="0.02" lunit="cm"/>
+    <trd name="SitpcStave010x1" x1="7" x2="0" y1="84.28" y2="84.28" z="2.02072594216" lunit="cm"/>
+    <trd name="SitpcChipAssembly010x1" x1="7" x2="0" y1="3.01" y2="3.01" z="2.02072594216" lunit="cm"/>
+    <box name="SitpcCellFlexLayer010x1" x="6" y="3.01" z="0.06" lunit="cm"/>
+    <box name="SitpcAluStrips010x1" x="6" y="3.01" z="0.03" lunit="cm"/>
+    <box name="SitpcMimosaShell010x1" x="6" y="3" z="0.005" lunit="cm"/>
+    <box name="SitpcMimosaCore010x1" x="5.8" y="3" z="0.0018" lunit="cm"/>
+    <box name="SitpcColdPlate010x1" x="6" y="3.01" z="0.044" lunit="cm"/>
+    <tube name="SitpcWaterPipe010x1" rmin="0.0512" rmax="0.0537" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="SitpcWater010x1" rmin="0" rmax="0.0512" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="SitpcEnforcementBeamApex010x1" rmin="0" rmax="0.02" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <arb8 name="SitpcEnforcementBeamBase010x1" v1x="-0.12" v1y="-1.505" v2x="-0.12" v2y="1.505" v3x="0" v3y="1.505" v4x="0" v4y="-1.505" v5x="0" v5y="-1.505" v6x="0" v6y="1.505" v7x="0" v7y="1.505" v8x="0" v8y="-1.505" dz="0.0346410161514" lunit="cm"/>
+    <box name="SitpcSideWall010x1" x="3.46410161514" y="3.01" z="0.025" lunit="cm"/>
+    <box name="SitpcFlatRoof010x1" x="3.46410161514" y="3.01" z="0.005" lunit="cm"/>
+    <box name="SitpcRoofSideBeam010x1" x="3.2880601566" y="0.05" z="0.02" lunit="cm"/>
+    <trd name="SitpcStave020x1" x1="7" x2="0" y1="84.28" y2="84.28" z="2.02072594216" lunit="cm"/>
+    <trd name="SitpcChipAssembly020x1" x1="7" x2="0" y1="3.01" y2="3.01" z="2.02072594216" lunit="cm"/>
+    <box name="SitpcCellFlexLayer020x1" x="6" y="3.01" z="0.06" lunit="cm"/>
+    <box name="SitpcAluStrips020x1" x="6" y="3.01" z="0.03" lunit="cm"/>
+    <box name="SitpcMimosaShell020x1" x="6" y="3" z="0.005" lunit="cm"/>
+    <box name="SitpcMimosaCore020x1" x="5.8" y="3" z="0.0018" lunit="cm"/>
+    <box name="SitpcColdPlate020x1" x="6" y="3.01" z="0.044" lunit="cm"/>
+    <tube name="SitpcWaterPipe020x1" rmin="0.0512" rmax="0.0537" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="SitpcWater020x1" rmin="0" rmax="0.0512" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="SitpcEnforcementBeamApex020x1" rmin="0" rmax="0.02" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <arb8 name="SitpcEnforcementBeamBase020x1" v1x="-0.12" v1y="-1.505" v2x="-0.12" v2y="1.505" v3x="0" v3y="1.505" v4x="0" v4y="-1.505" v5x="0" v5y="-1.505" v6x="0" v6y="1.505" v7x="0" v7y="1.505" v8x="0" v8y="-1.505" dz="0.0346410161514" lunit="cm"/>
+    <box name="SitpcSideWall020x1" x="3.46410161514" y="3.01" z="0.025" lunit="cm"/>
+    <box name="SitpcFlatRoof020x1" x="3.46410161514" y="3.01" z="0.005" lunit="cm"/>
+    <box name="SitpcRoofSideBeam020x1" x="3.2880601566" y="0.05" z="0.02" lunit="cm"/>
+    <trd name="SitpcStave030x1" x1="7" x2="0" y1="84.28" y2="84.28" z="2.02072594216" lunit="cm"/>
+    <trd name="SitpcChipAssembly030x1" x1="7" x2="0" y1="3.01" y2="3.01" z="2.02072594216" lunit="cm"/>
+    <box name="SitpcCellFlexLayer030x1" x="6" y="3.01" z="0.06" lunit="cm"/>
+    <box name="SitpcAluStrips030x1" x="6" y="3.01" z="0.03" lunit="cm"/>
+    <box name="SitpcMimosaShell030x1" x="6" y="3" z="0.005" lunit="cm"/>
+    <box name="SitpcMimosaCore030x1" x="5.8" y="3" z="0.0018" lunit="cm"/>
+    <box name="SitpcColdPlate030x1" x="6" y="3.01" z="0.044" lunit="cm"/>
+    <tube name="SitpcWaterPipe030x1" rmin="0.0512" rmax="0.0537" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="SitpcWater030x1" rmin="0" rmax="0.0512" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="SitpcEnforcementBeamApex030x1" rmin="0" rmax="0.02" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <arb8 name="SitpcEnforcementBeamBase030x1" v1x="-0.12" v1y="-1.505" v2x="-0.12" v2y="1.505" v3x="0" v3y="1.505" v4x="0" v4y="-1.505" v5x="0" v5y="-1.505" v6x="0" v6y="1.505" v7x="0" v7y="1.505" v8x="0" v8y="-1.505" dz="0.0346410161514" lunit="cm"/>
+    <box name="SitpcSideWall030x1" x="3.46410161514" y="3.01" z="0.025" lunit="cm"/>
+    <box name="SitpcFlatRoof030x1" x="3.46410161514" y="3.01" z="0.005" lunit="cm"/>
+    <box name="SitpcRoofSideBeam030x1" x="3.2880601566" y="0.05" z="0.02" lunit="cm"/>
+    <trd name="SitpcStave040x1" x1="7" x2="0" y1="84.28" y2="84.28" z="2.02072594216" lunit="cm"/>
+    <trd name="SitpcChipAssembly040x1" x1="7" x2="0" y1="3.01" y2="3.01" z="2.02072594216" lunit="cm"/>
+    <box name="SitpcCellFlexLayer040x1" x="6" y="3.01" z="0.06" lunit="cm"/>
+    <box name="SitpcAluStrips040x1" x="6" y="3.01" z="0.03" lunit="cm"/>
+    <box name="SitpcMimosaShell040x1" x="6" y="3" z="0.005" lunit="cm"/>
+    <box name="SitpcMimosaCore040x1" x="5.8" y="3" z="0.0018" lunit="cm"/>
+    <box name="SitpcColdPlate040x1" x="6" y="3.01" z="0.044" lunit="cm"/>
+    <tube name="SitpcWaterPipe040x1" rmin="0.0512" rmax="0.0537" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="SitpcWater040x1" rmin="0" rmax="0.0512" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <tube name="SitpcEnforcementBeamApex040x1" rmin="0" rmax="0.02" z="3.01" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <arb8 name="SitpcEnforcementBeamBase040x1" v1x="-0.12" v1y="-1.505" v2x="-0.12" v2y="1.505" v3x="0" v3y="1.505" v4x="0" v4y="-1.505" v5x="0" v5y="-1.505" v6x="0" v6y="1.505" v7x="0" v7y="1.505" v8x="0" v8y="-1.505" dz="0.0346410161514" lunit="cm"/>
+    <box name="SitpcSideWall040x1" x="3.46410161514" y="3.01" z="0.025" lunit="cm"/>
+    <box name="SitpcFlatRoof040x1" x="3.46410161514" y="3.01" z="0.005" lunit="cm"/>
+    <box name="SitpcRoofSideBeam040x1" x="3.2880601566" y="0.05" z="0.02" lunit="cm"/>
+  </solids>
+  <structure>
+    <volume name="SitpcCellFlexLayer00">
+      <materialref ref="MapsKapton"/>
+      <solidref ref="SitpcCellFlexLayer000x1"/>
+    </volume>
+    <volume name="SitpcAluStrips00">
+      <materialref ref="aluminum"/>
+      <solidref ref="SitpcAluStrips000x1"/>
+    </volume>
+    <volume name="SitpcMimosaCore00">
+      <materialref ref="silicon"/>
+      <solidref ref="SitpcMimosaCore000x1"/>
+    </volume>
+    <volume name="SitpcMimosaShell00">
+      <materialref ref="silicon"/>
+      <solidref ref="SitpcMimosaShell000x1"/>
+      <physvol>
+        <volumeref ref="SitpcMimosaCore00"/>
+        <positionref ref="SitpcMimosaCore00_0inSitpcMimosaShell00pos"/>
+      </physvol>
+    </volume>
+    <volume name="SitpcColdPlate00">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcColdPlate000x1"/>
+    </volume>
+    <volume name="SitpcWaterPipe00">
+      <materialref ref="MapsKapton"/>
+      <solidref ref="SitpcWaterPipe000x1"/>
+    </volume>
+    <volume name="SitpcWater00">
+      <materialref ref="water"/>
+      <solidref ref="SitpcWater000x1"/>
+    </volume>
+    <volume name="SitpcEnforcementBeamApex00">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcEnforcementBeamApex000x1"/>
+    </volume>
+    <volume name="SitpcEnforcementBeamBase00">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcEnforcementBeamBase000x1"/>
+    </volume>
+    <volume name="SitpcFlatRoof00">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcFlatRoof000x1"/>
+    </volume>
+    <volume name="SitpcRoofSideBeam00">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcRoofSideBeam000x1"/>
+    </volume>
+    <volume name="SitpcSideWall00">
+      <materialref ref="air"/>
+      <solidref ref="SitpcSideWall000x1"/>
+      <physvol>
+        <volumeref ref="SitpcFlatRoof00"/>
+        <positionref ref="SitpcFlatRoof00_2inSitpcSideWall00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcRoofSideBeam00"/>
+        <positionref ref="SitpcRoofSideBeam00_0inSitpcSideWall00pos"/>
+        <rotationref ref="SitpcRoofSideBeam00_0inSitpcSideWall00rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcRoofSideBeam00"/>
+        <positionref ref="SitpcRoofSideBeam00_1inSitpcSideWall00pos"/>
+        <rotationref ref="SitpcRoofSideBeam00_1inSitpcSideWall00rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcRoofSideBeam00"/>
+        <positionref ref="SitpcRoofSideBeam00_2inSitpcSideWall00pos"/>
+        <rotationref ref="SitpcRoofSideBeam00_2inSitpcSideWall00rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcRoofSideBeam00"/>
+        <positionref ref="SitpcRoofSideBeam00_3inSitpcSideWall00pos"/>
+        <rotationref ref="SitpcRoofSideBeam00_3inSitpcSideWall00rot"/>
+      </physvol>
+    </volume>
+    <volume name="SitpcChipAssembly00">
+      <materialref ref="air"/>
+      <solidref ref="SitpcChipAssembly000x1"/>
+      <physvol>
+        <volumeref ref="SitpcCellFlexLayer00"/>
+        <positionref ref="SitpcCellFlexLayer00_0inSitpcChipAssembly00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcAluStrips00"/>
+        <positionref ref="SitpcAluStrips00_0inSitpcChipAssembly00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcMimosaShell00"/>
+        <positionref ref="SitpcMimosaShell00_0inSitpcChipAssembly00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcColdPlate00"/>
+        <positionref ref="SitpcColdPlate00_0inSitpcChipAssembly00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcWaterPipe00"/>
+        <positionref ref="SitpcWaterPipe00_0inSitpcChipAssembly00pos"/>
+        <rotationref ref="SitpcWaterPipe00_0inSitpcChipAssembly00rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcWater00"/>
+        <positionref ref="SitpcWater00_0inSitpcChipAssembly00pos"/>
+        <rotationref ref="SitpcWater00_0inSitpcChipAssembly00rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcWaterPipe00"/>
+        <positionref ref="SitpcWaterPipe00_1inSitpcChipAssembly00pos"/>
+        <rotationref ref="SitpcWaterPipe00_1inSitpcChipAssembly00rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcWater00"/>
+        <positionref ref="SitpcWater00_1inSitpcChipAssembly00pos"/>
+        <rotationref ref="SitpcWater00_1inSitpcChipAssembly00rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcEnforcementBeamApex00"/>
+        <positionref ref="SitpcEnforcementBeamApex00_0inSitpcChipAssembly00pos"/>
+        <rotationref ref="SitpcEnforcementBeamApex00_0inSitpcChipAssembly00rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcEnforcementBeamBase00"/>
+        <positionref ref="SitpcEnforcementBeamBase00_0inSitpcChipAssembly00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcEnforcementBeamBase00"/>
+        <positionref ref="SitpcEnforcementBeamBase00_1inSitpcChipAssembly00pos"/>
+        <rotationref ref="SitpcEnforcementBeamBase00_1inSitpcChipAssembly00rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcSideWall00"/>
+        <positionref ref="SitpcSideWall00_0inSitpcChipAssembly00pos"/>
+        <rotationref ref="SitpcSideWall00_0inSitpcChipAssembly00rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcSideWall00"/>
+        <positionref ref="SitpcSideWall00_1inSitpcChipAssembly00pos"/>
+        <rotationref ref="SitpcSideWall00_1inSitpcChipAssembly00rot"/>
+      </physvol>
+    </volume>
+    <volume name="SitpcStave00">
+      <materialref ref="air"/>
+      <solidref ref="SitpcStave000x1"/>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_0inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_1inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_2inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_3inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_4inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_5inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_6inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_7inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_8inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_9inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_10inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_11inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_12inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_13inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_14inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_15inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_16inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_17inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_18inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_19inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_20inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_21inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_22inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_23inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_24inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_25inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_26inSitpcStave00pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly00"/>
+        <positionref ref="SitpcChipAssembly00_27inSitpcStave00pos"/>
+      </physvol>
+    </volume>
+    <volume name="SitpcCellFlexLayer01">
+      <materialref ref="MapsKapton"/>
+      <solidref ref="SitpcCellFlexLayer010x1"/>
+    </volume>
+    <volume name="SitpcAluStrips01">
+      <materialref ref="aluminum"/>
+      <solidref ref="SitpcAluStrips010x1"/>
+    </volume>
+    <volume name="SitpcMimosaCore01">
+      <materialref ref="silicon"/>
+      <solidref ref="SitpcMimosaCore010x1"/>
+    </volume>
+    <volume name="SitpcMimosaShell01">
+      <materialref ref="silicon"/>
+      <solidref ref="SitpcMimosaShell010x1"/>
+      <physvol>
+        <volumeref ref="SitpcMimosaCore01"/>
+        <positionref ref="SitpcMimosaCore01_0inSitpcMimosaShell01pos"/>
+      </physvol>
+    </volume>
+    <volume name="SitpcColdPlate01">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcColdPlate010x1"/>
+    </volume>
+    <volume name="SitpcWaterPipe01">
+      <materialref ref="MapsKapton"/>
+      <solidref ref="SitpcWaterPipe010x1"/>
+    </volume>
+    <volume name="SitpcWater01">
+      <materialref ref="water"/>
+      <solidref ref="SitpcWater010x1"/>
+    </volume>
+    <volume name="SitpcEnforcementBeamApex01">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcEnforcementBeamApex010x1"/>
+    </volume>
+    <volume name="SitpcEnforcementBeamBase01">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcEnforcementBeamBase010x1"/>
+    </volume>
+    <volume name="SitpcFlatRoof01">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcFlatRoof010x1"/>
+    </volume>
+    <volume name="SitpcRoofSideBeam01">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcRoofSideBeam010x1"/>
+    </volume>
+    <volume name="SitpcSideWall01">
+      <materialref ref="air"/>
+      <solidref ref="SitpcSideWall010x1"/>
+      <physvol>
+        <volumeref ref="SitpcFlatRoof01"/>
+        <positionref ref="SitpcFlatRoof01_2inSitpcSideWall01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcRoofSideBeam01"/>
+        <positionref ref="SitpcRoofSideBeam01_0inSitpcSideWall01pos"/>
+        <rotationref ref="SitpcRoofSideBeam01_0inSitpcSideWall01rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcRoofSideBeam01"/>
+        <positionref ref="SitpcRoofSideBeam01_1inSitpcSideWall01pos"/>
+        <rotationref ref="SitpcRoofSideBeam01_1inSitpcSideWall01rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcRoofSideBeam01"/>
+        <positionref ref="SitpcRoofSideBeam01_2inSitpcSideWall01pos"/>
+        <rotationref ref="SitpcRoofSideBeam01_2inSitpcSideWall01rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcRoofSideBeam01"/>
+        <positionref ref="SitpcRoofSideBeam01_3inSitpcSideWall01pos"/>
+        <rotationref ref="SitpcRoofSideBeam01_3inSitpcSideWall01rot"/>
+      </physvol>
+    </volume>
+    <volume name="SitpcChipAssembly01">
+      <materialref ref="air"/>
+      <solidref ref="SitpcChipAssembly010x1"/>
+      <physvol>
+        <volumeref ref="SitpcCellFlexLayer01"/>
+        <positionref ref="SitpcCellFlexLayer01_0inSitpcChipAssembly01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcAluStrips01"/>
+        <positionref ref="SitpcAluStrips01_0inSitpcChipAssembly01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcMimosaShell01"/>
+        <positionref ref="SitpcMimosaShell01_0inSitpcChipAssembly01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcColdPlate01"/>
+        <positionref ref="SitpcColdPlate01_0inSitpcChipAssembly01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcWaterPipe01"/>
+        <positionref ref="SitpcWaterPipe01_0inSitpcChipAssembly01pos"/>
+        <rotationref ref="SitpcWaterPipe01_0inSitpcChipAssembly01rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcWater01"/>
+        <positionref ref="SitpcWater01_0inSitpcChipAssembly01pos"/>
+        <rotationref ref="SitpcWater01_0inSitpcChipAssembly01rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcWaterPipe01"/>
+        <positionref ref="SitpcWaterPipe01_1inSitpcChipAssembly01pos"/>
+        <rotationref ref="SitpcWaterPipe01_1inSitpcChipAssembly01rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcWater01"/>
+        <positionref ref="SitpcWater01_1inSitpcChipAssembly01pos"/>
+        <rotationref ref="SitpcWater01_1inSitpcChipAssembly01rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcEnforcementBeamApex01"/>
+        <positionref ref="SitpcEnforcementBeamApex01_0inSitpcChipAssembly01pos"/>
+        <rotationref ref="SitpcEnforcementBeamApex01_0inSitpcChipAssembly01rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcEnforcementBeamBase01"/>
+        <positionref ref="SitpcEnforcementBeamBase01_0inSitpcChipAssembly01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcEnforcementBeamBase01"/>
+        <positionref ref="SitpcEnforcementBeamBase01_1inSitpcChipAssembly01pos"/>
+        <rotationref ref="SitpcEnforcementBeamBase01_1inSitpcChipAssembly01rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcSideWall01"/>
+        <positionref ref="SitpcSideWall01_0inSitpcChipAssembly01pos"/>
+        <rotationref ref="SitpcSideWall01_0inSitpcChipAssembly01rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcSideWall01"/>
+        <positionref ref="SitpcSideWall01_1inSitpcChipAssembly01pos"/>
+        <rotationref ref="SitpcSideWall01_1inSitpcChipAssembly01rot"/>
+      </physvol>
+    </volume>
+    <volume name="SitpcStave01">
+      <materialref ref="air"/>
+      <solidref ref="SitpcStave010x1"/>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_0inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_1inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_2inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_3inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_4inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_5inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_6inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_7inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_8inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_9inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_10inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_11inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_12inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_13inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_14inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_15inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_16inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_17inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_18inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_19inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_20inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_21inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_22inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_23inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_24inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_25inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_26inSitpcStave01pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly01"/>
+        <positionref ref="SitpcChipAssembly01_27inSitpcStave01pos"/>
+      </physvol>
+    </volume>
+    <volume name="SitpcCellFlexLayer02">
+      <materialref ref="MapsKapton"/>
+      <solidref ref="SitpcCellFlexLayer020x1"/>
+    </volume>
+    <volume name="SitpcAluStrips02">
+      <materialref ref="aluminum"/>
+      <solidref ref="SitpcAluStrips020x1"/>
+    </volume>
+    <volume name="SitpcMimosaCore02">
+      <materialref ref="silicon"/>
+      <solidref ref="SitpcMimosaCore020x1"/>
+    </volume>
+    <volume name="SitpcMimosaShell02">
+      <materialref ref="silicon"/>
+      <solidref ref="SitpcMimosaShell020x1"/>
+      <physvol>
+        <volumeref ref="SitpcMimosaCore02"/>
+        <positionref ref="SitpcMimosaCore02_0inSitpcMimosaShell02pos"/>
+      </physvol>
+    </volume>
+    <volume name="SitpcColdPlate02">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcColdPlate020x1"/>
+    </volume>
+    <volume name="SitpcWaterPipe02">
+      <materialref ref="MapsKapton"/>
+      <solidref ref="SitpcWaterPipe020x1"/>
+    </volume>
+    <volume name="SitpcWater02">
+      <materialref ref="water"/>
+      <solidref ref="SitpcWater020x1"/>
+    </volume>
+    <volume name="SitpcEnforcementBeamApex02">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcEnforcementBeamApex020x1"/>
+    </volume>
+    <volume name="SitpcEnforcementBeamBase02">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcEnforcementBeamBase020x1"/>
+    </volume>
+    <volume name="SitpcFlatRoof02">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcFlatRoof020x1"/>
+    </volume>
+    <volume name="SitpcRoofSideBeam02">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcRoofSideBeam020x1"/>
+    </volume>
+    <volume name="SitpcSideWall02">
+      <materialref ref="air"/>
+      <solidref ref="SitpcSideWall020x1"/>
+      <physvol>
+        <volumeref ref="SitpcFlatRoof02"/>
+        <positionref ref="SitpcFlatRoof02_2inSitpcSideWall02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcRoofSideBeam02"/>
+        <positionref ref="SitpcRoofSideBeam02_0inSitpcSideWall02pos"/>
+        <rotationref ref="SitpcRoofSideBeam02_0inSitpcSideWall02rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcRoofSideBeam02"/>
+        <positionref ref="SitpcRoofSideBeam02_1inSitpcSideWall02pos"/>
+        <rotationref ref="SitpcRoofSideBeam02_1inSitpcSideWall02rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcRoofSideBeam02"/>
+        <positionref ref="SitpcRoofSideBeam02_2inSitpcSideWall02pos"/>
+        <rotationref ref="SitpcRoofSideBeam02_2inSitpcSideWall02rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcRoofSideBeam02"/>
+        <positionref ref="SitpcRoofSideBeam02_3inSitpcSideWall02pos"/>
+        <rotationref ref="SitpcRoofSideBeam02_3inSitpcSideWall02rot"/>
+      </physvol>
+    </volume>
+    <volume name="SitpcChipAssembly02">
+      <materialref ref="air"/>
+      <solidref ref="SitpcChipAssembly020x1"/>
+      <physvol>
+        <volumeref ref="SitpcCellFlexLayer02"/>
+        <positionref ref="SitpcCellFlexLayer02_0inSitpcChipAssembly02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcAluStrips02"/>
+        <positionref ref="SitpcAluStrips02_0inSitpcChipAssembly02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcMimosaShell02"/>
+        <positionref ref="SitpcMimosaShell02_0inSitpcChipAssembly02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcColdPlate02"/>
+        <positionref ref="SitpcColdPlate02_0inSitpcChipAssembly02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcWaterPipe02"/>
+        <positionref ref="SitpcWaterPipe02_0inSitpcChipAssembly02pos"/>
+        <rotationref ref="SitpcWaterPipe02_0inSitpcChipAssembly02rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcWater02"/>
+        <positionref ref="SitpcWater02_0inSitpcChipAssembly02pos"/>
+        <rotationref ref="SitpcWater02_0inSitpcChipAssembly02rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcWaterPipe02"/>
+        <positionref ref="SitpcWaterPipe02_1inSitpcChipAssembly02pos"/>
+        <rotationref ref="SitpcWaterPipe02_1inSitpcChipAssembly02rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcWater02"/>
+        <positionref ref="SitpcWater02_1inSitpcChipAssembly02pos"/>
+        <rotationref ref="SitpcWater02_1inSitpcChipAssembly02rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcEnforcementBeamApex02"/>
+        <positionref ref="SitpcEnforcementBeamApex02_0inSitpcChipAssembly02pos"/>
+        <rotationref ref="SitpcEnforcementBeamApex02_0inSitpcChipAssembly02rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcEnforcementBeamBase02"/>
+        <positionref ref="SitpcEnforcementBeamBase02_0inSitpcChipAssembly02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcEnforcementBeamBase02"/>
+        <positionref ref="SitpcEnforcementBeamBase02_1inSitpcChipAssembly02pos"/>
+        <rotationref ref="SitpcEnforcementBeamBase02_1inSitpcChipAssembly02rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcSideWall02"/>
+        <positionref ref="SitpcSideWall02_0inSitpcChipAssembly02pos"/>
+        <rotationref ref="SitpcSideWall02_0inSitpcChipAssembly02rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcSideWall02"/>
+        <positionref ref="SitpcSideWall02_1inSitpcChipAssembly02pos"/>
+        <rotationref ref="SitpcSideWall02_1inSitpcChipAssembly02rot"/>
+      </physvol>
+    </volume>
+    <volume name="SitpcStave02">
+      <materialref ref="air"/>
+      <solidref ref="SitpcStave020x1"/>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_0inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_1inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_2inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_3inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_4inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_5inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_6inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_7inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_8inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_9inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_10inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_11inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_12inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_13inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_14inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_15inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_16inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_17inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_18inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_19inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_20inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_21inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_22inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_23inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_24inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_25inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_26inSitpcStave02pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly02"/>
+        <positionref ref="SitpcChipAssembly02_27inSitpcStave02pos"/>
+      </physvol>
+    </volume>
+    <volume name="SitpcCellFlexLayer03">
+      <materialref ref="MapsKapton"/>
+      <solidref ref="SitpcCellFlexLayer030x1"/>
+    </volume>
+    <volume name="SitpcAluStrips03">
+      <materialref ref="aluminum"/>
+      <solidref ref="SitpcAluStrips030x1"/>
+    </volume>
+    <volume name="SitpcMimosaCore03">
+      <materialref ref="silicon"/>
+      <solidref ref="SitpcMimosaCore030x1"/>
+    </volume>
+    <volume name="SitpcMimosaShell03">
+      <materialref ref="silicon"/>
+      <solidref ref="SitpcMimosaShell030x1"/>
+      <physvol>
+        <volumeref ref="SitpcMimosaCore03"/>
+        <positionref ref="SitpcMimosaCore03_0inSitpcMimosaShell03pos"/>
+      </physvol>
+    </volume>
+    <volume name="SitpcColdPlate03">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcColdPlate030x1"/>
+    </volume>
+    <volume name="SitpcWaterPipe03">
+      <materialref ref="MapsKapton"/>
+      <solidref ref="SitpcWaterPipe030x1"/>
+    </volume>
+    <volume name="SitpcWater03">
+      <materialref ref="water"/>
+      <solidref ref="SitpcWater030x1"/>
+    </volume>
+    <volume name="SitpcEnforcementBeamApex03">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcEnforcementBeamApex030x1"/>
+    </volume>
+    <volume name="SitpcEnforcementBeamBase03">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcEnforcementBeamBase030x1"/>
+    </volume>
+    <volume name="SitpcFlatRoof03">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcFlatRoof030x1"/>
+    </volume>
+    <volume name="SitpcRoofSideBeam03">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcRoofSideBeam030x1"/>
+    </volume>
+    <volume name="SitpcSideWall03">
+      <materialref ref="air"/>
+      <solidref ref="SitpcSideWall030x1"/>
+      <physvol>
+        <volumeref ref="SitpcFlatRoof03"/>
+        <positionref ref="SitpcFlatRoof03_2inSitpcSideWall03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcRoofSideBeam03"/>
+        <positionref ref="SitpcRoofSideBeam03_0inSitpcSideWall03pos"/>
+        <rotationref ref="SitpcRoofSideBeam03_0inSitpcSideWall03rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcRoofSideBeam03"/>
+        <positionref ref="SitpcRoofSideBeam03_1inSitpcSideWall03pos"/>
+        <rotationref ref="SitpcRoofSideBeam03_1inSitpcSideWall03rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcRoofSideBeam03"/>
+        <positionref ref="SitpcRoofSideBeam03_2inSitpcSideWall03pos"/>
+        <rotationref ref="SitpcRoofSideBeam03_2inSitpcSideWall03rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcRoofSideBeam03"/>
+        <positionref ref="SitpcRoofSideBeam03_3inSitpcSideWall03pos"/>
+        <rotationref ref="SitpcRoofSideBeam03_3inSitpcSideWall03rot"/>
+      </physvol>
+    </volume>
+    <volume name="SitpcChipAssembly03">
+      <materialref ref="air"/>
+      <solidref ref="SitpcChipAssembly030x1"/>
+      <physvol>
+        <volumeref ref="SitpcCellFlexLayer03"/>
+        <positionref ref="SitpcCellFlexLayer03_0inSitpcChipAssembly03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcAluStrips03"/>
+        <positionref ref="SitpcAluStrips03_0inSitpcChipAssembly03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcMimosaShell03"/>
+        <positionref ref="SitpcMimosaShell03_0inSitpcChipAssembly03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcColdPlate03"/>
+        <positionref ref="SitpcColdPlate03_0inSitpcChipAssembly03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcWaterPipe03"/>
+        <positionref ref="SitpcWaterPipe03_0inSitpcChipAssembly03pos"/>
+        <rotationref ref="SitpcWaterPipe03_0inSitpcChipAssembly03rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcWater03"/>
+        <positionref ref="SitpcWater03_0inSitpcChipAssembly03pos"/>
+        <rotationref ref="SitpcWater03_0inSitpcChipAssembly03rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcWaterPipe03"/>
+        <positionref ref="SitpcWaterPipe03_1inSitpcChipAssembly03pos"/>
+        <rotationref ref="SitpcWaterPipe03_1inSitpcChipAssembly03rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcWater03"/>
+        <positionref ref="SitpcWater03_1inSitpcChipAssembly03pos"/>
+        <rotationref ref="SitpcWater03_1inSitpcChipAssembly03rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcEnforcementBeamApex03"/>
+        <positionref ref="SitpcEnforcementBeamApex03_0inSitpcChipAssembly03pos"/>
+        <rotationref ref="SitpcEnforcementBeamApex03_0inSitpcChipAssembly03rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcEnforcementBeamBase03"/>
+        <positionref ref="SitpcEnforcementBeamBase03_0inSitpcChipAssembly03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcEnforcementBeamBase03"/>
+        <positionref ref="SitpcEnforcementBeamBase03_1inSitpcChipAssembly03pos"/>
+        <rotationref ref="SitpcEnforcementBeamBase03_1inSitpcChipAssembly03rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcSideWall03"/>
+        <positionref ref="SitpcSideWall03_0inSitpcChipAssembly03pos"/>
+        <rotationref ref="SitpcSideWall03_0inSitpcChipAssembly03rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcSideWall03"/>
+        <positionref ref="SitpcSideWall03_1inSitpcChipAssembly03pos"/>
+        <rotationref ref="SitpcSideWall03_1inSitpcChipAssembly03rot"/>
+      </physvol>
+    </volume>
+    <volume name="SitpcStave03">
+      <materialref ref="air"/>
+      <solidref ref="SitpcStave030x1"/>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_0inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_1inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_2inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_3inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_4inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_5inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_6inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_7inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_8inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_9inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_10inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_11inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_12inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_13inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_14inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_15inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_16inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_17inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_18inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_19inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_20inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_21inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_22inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_23inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_24inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_25inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_26inSitpcStave03pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly03"/>
+        <positionref ref="SitpcChipAssembly03_27inSitpcStave03pos"/>
+      </physvol>
+    </volume>
+    <volume name="SitpcCellFlexLayer04">
+      <materialref ref="MapsKapton"/>
+      <solidref ref="SitpcCellFlexLayer040x1"/>
+    </volume>
+    <volume name="SitpcAluStrips04">
+      <materialref ref="aluminum"/>
+      <solidref ref="SitpcAluStrips040x1"/>
+    </volume>
+    <volume name="SitpcMimosaCore04">
+      <materialref ref="silicon"/>
+      <solidref ref="SitpcMimosaCore040x1"/>
+    </volume>
+    <volume name="SitpcMimosaShell04">
+      <materialref ref="silicon"/>
+      <solidref ref="SitpcMimosaShell040x1"/>
+      <physvol>
+        <volumeref ref="SitpcMimosaCore04"/>
+        <positionref ref="SitpcMimosaCore04_0inSitpcMimosaShell04pos"/>
+      </physvol>
+    </volume>
+    <volume name="SitpcColdPlate04">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcColdPlate040x1"/>
+    </volume>
+    <volume name="SitpcWaterPipe04">
+      <materialref ref="MapsKapton"/>
+      <solidref ref="SitpcWaterPipe040x1"/>
+    </volume>
+    <volume name="SitpcWater04">
+      <materialref ref="water"/>
+      <solidref ref="SitpcWater040x1"/>
+    </volume>
+    <volume name="SitpcEnforcementBeamApex04">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcEnforcementBeamApex040x1"/>
+    </volume>
+    <volume name="SitpcEnforcementBeamBase04">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcEnforcementBeamBase040x1"/>
+    </volume>
+    <volume name="SitpcFlatRoof04">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcFlatRoof040x1"/>
+    </volume>
+    <volume name="SitpcRoofSideBeam04">
+      <materialref ref="MapsCarbonFiber"/>
+      <solidref ref="SitpcRoofSideBeam040x1"/>
+    </volume>
+    <volume name="SitpcSideWall04">
+      <materialref ref="air"/>
+      <solidref ref="SitpcSideWall040x1"/>
+      <physvol>
+        <volumeref ref="SitpcFlatRoof04"/>
+        <positionref ref="SitpcFlatRoof04_2inSitpcSideWall04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcRoofSideBeam04"/>
+        <positionref ref="SitpcRoofSideBeam04_0inSitpcSideWall04pos"/>
+        <rotationref ref="SitpcRoofSideBeam04_0inSitpcSideWall04rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcRoofSideBeam04"/>
+        <positionref ref="SitpcRoofSideBeam04_1inSitpcSideWall04pos"/>
+        <rotationref ref="SitpcRoofSideBeam04_1inSitpcSideWall04rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcRoofSideBeam04"/>
+        <positionref ref="SitpcRoofSideBeam04_2inSitpcSideWall04pos"/>
+        <rotationref ref="SitpcRoofSideBeam04_2inSitpcSideWall04rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcRoofSideBeam04"/>
+        <positionref ref="SitpcRoofSideBeam04_3inSitpcSideWall04pos"/>
+        <rotationref ref="SitpcRoofSideBeam04_3inSitpcSideWall04rot"/>
+      </physvol>
+    </volume>
+    <volume name="SitpcChipAssembly04">
+      <materialref ref="air"/>
+      <solidref ref="SitpcChipAssembly040x1"/>
+      <physvol>
+        <volumeref ref="SitpcCellFlexLayer04"/>
+        <positionref ref="SitpcCellFlexLayer04_0inSitpcChipAssembly04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcAluStrips04"/>
+        <positionref ref="SitpcAluStrips04_0inSitpcChipAssembly04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcMimosaShell04"/>
+        <positionref ref="SitpcMimosaShell04_0inSitpcChipAssembly04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcColdPlate04"/>
+        <positionref ref="SitpcColdPlate04_0inSitpcChipAssembly04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcWaterPipe04"/>
+        <positionref ref="SitpcWaterPipe04_0inSitpcChipAssembly04pos"/>
+        <rotationref ref="SitpcWaterPipe04_0inSitpcChipAssembly04rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcWater04"/>
+        <positionref ref="SitpcWater04_0inSitpcChipAssembly04pos"/>
+        <rotationref ref="SitpcWater04_0inSitpcChipAssembly04rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcWaterPipe04"/>
+        <positionref ref="SitpcWaterPipe04_1inSitpcChipAssembly04pos"/>
+        <rotationref ref="SitpcWaterPipe04_1inSitpcChipAssembly04rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcWater04"/>
+        <positionref ref="SitpcWater04_1inSitpcChipAssembly04pos"/>
+        <rotationref ref="SitpcWater04_1inSitpcChipAssembly04rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcEnforcementBeamApex04"/>
+        <positionref ref="SitpcEnforcementBeamApex04_0inSitpcChipAssembly04pos"/>
+        <rotationref ref="SitpcEnforcementBeamApex04_0inSitpcChipAssembly04rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcEnforcementBeamBase04"/>
+        <positionref ref="SitpcEnforcementBeamBase04_0inSitpcChipAssembly04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcEnforcementBeamBase04"/>
+        <positionref ref="SitpcEnforcementBeamBase04_1inSitpcChipAssembly04pos"/>
+        <rotationref ref="SitpcEnforcementBeamBase04_1inSitpcChipAssembly04rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcSideWall04"/>
+        <positionref ref="SitpcSideWall04_0inSitpcChipAssembly04pos"/>
+        <rotationref ref="SitpcSideWall04_0inSitpcChipAssembly04rot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcSideWall04"/>
+        <positionref ref="SitpcSideWall04_1inSitpcChipAssembly04pos"/>
+        <rotationref ref="SitpcSideWall04_1inSitpcChipAssembly04rot"/>
+      </physvol>
+    </volume>
+    <volume name="SitpcStave04">
+      <materialref ref="air"/>
+      <solidref ref="SitpcStave040x1"/>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_0inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_1inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_2inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_3inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_4inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_5inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_6inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_7inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_8inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_9inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_10inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_11inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_12inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_13inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_14inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_15inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_16inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_17inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_18inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_19inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_20inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_21inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_22inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_23inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_24inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_25inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_26inSitpcStave04pos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcChipAssembly04"/>
+        <positionref ref="SitpcChipAssembly04_27inSitpcStave04pos"/>
+      </physvol>
+    </volume>
+    <assembly name="SITPC">
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_0inSITPCpos"/>
+        <rotationref ref="SitpcStave00_0inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_1inSITPCpos"/>
+        <rotationref ref="SitpcStave00_1inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_2inSITPCpos"/>
+        <rotationref ref="SitpcStave00_2inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_3inSITPCpos"/>
+        <rotationref ref="SitpcStave00_3inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_4inSITPCpos"/>
+        <rotationref ref="SitpcStave00_4inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_5inSITPCpos"/>
+        <rotationref ref="SitpcStave00_5inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_6inSITPCpos"/>
+        <rotationref ref="SitpcStave00_6inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_7inSITPCpos"/>
+        <rotationref ref="SitpcStave00_7inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_8inSITPCpos"/>
+        <rotationref ref="SitpcStave00_8inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_9inSITPCpos"/>
+        <rotationref ref="SitpcStave00_9inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_10inSITPCpos"/>
+        <rotationref ref="SitpcStave00_10inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_11inSITPCpos"/>
+        <rotationref ref="SitpcStave00_11inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_12inSITPCpos"/>
+        <rotationref ref="SitpcStave00_12inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_13inSITPCpos"/>
+        <rotationref ref="SitpcStave00_13inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_14inSITPCpos"/>
+        <rotationref ref="SitpcStave00_14inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_15inSITPCpos"/>
+        <rotationref ref="SitpcStave00_15inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_16inSITPCpos"/>
+        <rotationref ref="SitpcStave00_16inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_17inSITPCpos"/>
+        <rotationref ref="SitpcStave00_17inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_18inSITPCpos"/>
+        <rotationref ref="SitpcStave00_18inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_19inSITPCpos"/>
+        <rotationref ref="SitpcStave00_19inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_20inSITPCpos"/>
+        <rotationref ref="SitpcStave00_20inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_21inSITPCpos"/>
+        <rotationref ref="SitpcStave00_21inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_22inSITPCpos"/>
+        <rotationref ref="SitpcStave00_22inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_23inSITPCpos"/>
+        <rotationref ref="SitpcStave00_23inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_24inSITPCpos"/>
+        <rotationref ref="SitpcStave00_24inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave00"/>
+        <positionref ref="SitpcStave00_25inSITPCpos"/>
+        <rotationref ref="SitpcStave00_25inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_0inSITPCpos"/>
+        <rotationref ref="SitpcStave01_0inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_1inSITPCpos"/>
+        <rotationref ref="SitpcStave01_1inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_2inSITPCpos"/>
+        <rotationref ref="SitpcStave01_2inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_3inSITPCpos"/>
+        <rotationref ref="SitpcStave01_3inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_4inSITPCpos"/>
+        <rotationref ref="SitpcStave01_4inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_5inSITPCpos"/>
+        <rotationref ref="SitpcStave01_5inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_6inSITPCpos"/>
+        <rotationref ref="SitpcStave01_6inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_7inSITPCpos"/>
+        <rotationref ref="SitpcStave01_7inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_8inSITPCpos"/>
+        <rotationref ref="SitpcStave01_8inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_9inSITPCpos"/>
+        <rotationref ref="SitpcStave01_9inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_10inSITPCpos"/>
+        <rotationref ref="SitpcStave01_10inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_11inSITPCpos"/>
+        <rotationref ref="SitpcStave01_11inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_12inSITPCpos"/>
+        <rotationref ref="SitpcStave01_12inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_13inSITPCpos"/>
+        <rotationref ref="SitpcStave01_13inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_14inSITPCpos"/>
+        <rotationref ref="SitpcStave01_14inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_15inSITPCpos"/>
+        <rotationref ref="SitpcStave01_15inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_16inSITPCpos"/>
+        <rotationref ref="SitpcStave01_16inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_17inSITPCpos"/>
+        <rotationref ref="SitpcStave01_17inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_18inSITPCpos"/>
+        <rotationref ref="SitpcStave01_18inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_19inSITPCpos"/>
+        <rotationref ref="SitpcStave01_19inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_20inSITPCpos"/>
+        <rotationref ref="SitpcStave01_20inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_21inSITPCpos"/>
+        <rotationref ref="SitpcStave01_21inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_22inSITPCpos"/>
+        <rotationref ref="SitpcStave01_22inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_23inSITPCpos"/>
+        <rotationref ref="SitpcStave01_23inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_24inSITPCpos"/>
+        <rotationref ref="SitpcStave01_24inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_25inSITPCpos"/>
+        <rotationref ref="SitpcStave01_25inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_26inSITPCpos"/>
+        <rotationref ref="SitpcStave01_26inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_27inSITPCpos"/>
+        <rotationref ref="SitpcStave01_27inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_28inSITPCpos"/>
+        <rotationref ref="SitpcStave01_28inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_29inSITPCpos"/>
+        <rotationref ref="SitpcStave01_29inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave01"/>
+        <positionref ref="SitpcStave01_30inSITPCpos"/>
+        <rotationref ref="SitpcStave01_30inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_0inSITPCpos"/>
+        <rotationref ref="SitpcStave02_0inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_1inSITPCpos"/>
+        <rotationref ref="SitpcStave02_1inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_2inSITPCpos"/>
+        <rotationref ref="SitpcStave02_2inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_3inSITPCpos"/>
+        <rotationref ref="SitpcStave02_3inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_4inSITPCpos"/>
+        <rotationref ref="SitpcStave02_4inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_5inSITPCpos"/>
+        <rotationref ref="SitpcStave02_5inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_6inSITPCpos"/>
+        <rotationref ref="SitpcStave02_6inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_7inSITPCpos"/>
+        <rotationref ref="SitpcStave02_7inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_8inSITPCpos"/>
+        <rotationref ref="SitpcStave02_8inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_9inSITPCpos"/>
+        <rotationref ref="SitpcStave02_9inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_10inSITPCpos"/>
+        <rotationref ref="SitpcStave02_10inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_11inSITPCpos"/>
+        <rotationref ref="SitpcStave02_11inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_12inSITPCpos"/>
+        <rotationref ref="SitpcStave02_12inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_13inSITPCpos"/>
+        <rotationref ref="SitpcStave02_13inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_14inSITPCpos"/>
+        <rotationref ref="SitpcStave02_14inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_15inSITPCpos"/>
+        <rotationref ref="SitpcStave02_15inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_16inSITPCpos"/>
+        <rotationref ref="SitpcStave02_16inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_17inSITPCpos"/>
+        <rotationref ref="SitpcStave02_17inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_18inSITPCpos"/>
+        <rotationref ref="SitpcStave02_18inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_19inSITPCpos"/>
+        <rotationref ref="SitpcStave02_19inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_20inSITPCpos"/>
+        <rotationref ref="SitpcStave02_20inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_21inSITPCpos"/>
+        <rotationref ref="SitpcStave02_21inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_22inSITPCpos"/>
+        <rotationref ref="SitpcStave02_22inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_23inSITPCpos"/>
+        <rotationref ref="SitpcStave02_23inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_24inSITPCpos"/>
+        <rotationref ref="SitpcStave02_24inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_25inSITPCpos"/>
+        <rotationref ref="SitpcStave02_25inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_26inSITPCpos"/>
+        <rotationref ref="SitpcStave02_26inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_27inSITPCpos"/>
+        <rotationref ref="SitpcStave02_27inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_28inSITPCpos"/>
+        <rotationref ref="SitpcStave02_28inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_29inSITPCpos"/>
+        <rotationref ref="SitpcStave02_29inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_30inSITPCpos"/>
+        <rotationref ref="SitpcStave02_30inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_31inSITPCpos"/>
+        <rotationref ref="SitpcStave02_31inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_32inSITPCpos"/>
+        <rotationref ref="SitpcStave02_32inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_33inSITPCpos"/>
+        <rotationref ref="SitpcStave02_33inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_34inSITPCpos"/>
+        <rotationref ref="SitpcStave02_34inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave02"/>
+        <positionref ref="SitpcStave02_35inSITPCpos"/>
+        <rotationref ref="SitpcStave02_35inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_0inSITPCpos"/>
+        <rotationref ref="SitpcStave03_0inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_1inSITPCpos"/>
+        <rotationref ref="SitpcStave03_1inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_2inSITPCpos"/>
+        <rotationref ref="SitpcStave03_2inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_3inSITPCpos"/>
+        <rotationref ref="SitpcStave03_3inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_4inSITPCpos"/>
+        <rotationref ref="SitpcStave03_4inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_5inSITPCpos"/>
+        <rotationref ref="SitpcStave03_5inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_6inSITPCpos"/>
+        <rotationref ref="SitpcStave03_6inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_7inSITPCpos"/>
+        <rotationref ref="SitpcStave03_7inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_8inSITPCpos"/>
+        <rotationref ref="SitpcStave03_8inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_9inSITPCpos"/>
+        <rotationref ref="SitpcStave03_9inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_10inSITPCpos"/>
+        <rotationref ref="SitpcStave03_10inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_11inSITPCpos"/>
+        <rotationref ref="SitpcStave03_11inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_12inSITPCpos"/>
+        <rotationref ref="SitpcStave03_12inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_13inSITPCpos"/>
+        <rotationref ref="SitpcStave03_13inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_14inSITPCpos"/>
+        <rotationref ref="SitpcStave03_14inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_15inSITPCpos"/>
+        <rotationref ref="SitpcStave03_15inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_16inSITPCpos"/>
+        <rotationref ref="SitpcStave03_16inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_17inSITPCpos"/>
+        <rotationref ref="SitpcStave03_17inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_18inSITPCpos"/>
+        <rotationref ref="SitpcStave03_18inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_19inSITPCpos"/>
+        <rotationref ref="SitpcStave03_19inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_20inSITPCpos"/>
+        <rotationref ref="SitpcStave03_20inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_21inSITPCpos"/>
+        <rotationref ref="SitpcStave03_21inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_22inSITPCpos"/>
+        <rotationref ref="SitpcStave03_22inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_23inSITPCpos"/>
+        <rotationref ref="SitpcStave03_23inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_24inSITPCpos"/>
+        <rotationref ref="SitpcStave03_24inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_25inSITPCpos"/>
+        <rotationref ref="SitpcStave03_25inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_26inSITPCpos"/>
+        <rotationref ref="SitpcStave03_26inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_27inSITPCpos"/>
+        <rotationref ref="SitpcStave03_27inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_28inSITPCpos"/>
+        <rotationref ref="SitpcStave03_28inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_29inSITPCpos"/>
+        <rotationref ref="SitpcStave03_29inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_30inSITPCpos"/>
+        <rotationref ref="SitpcStave03_30inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_31inSITPCpos"/>
+        <rotationref ref="SitpcStave03_31inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_32inSITPCpos"/>
+        <rotationref ref="SitpcStave03_32inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_33inSITPCpos"/>
+        <rotationref ref="SitpcStave03_33inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_34inSITPCpos"/>
+        <rotationref ref="SitpcStave03_34inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_35inSITPCpos"/>
+        <rotationref ref="SitpcStave03_35inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_36inSITPCpos"/>
+        <rotationref ref="SitpcStave03_36inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_37inSITPCpos"/>
+        <rotationref ref="SitpcStave03_37inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_38inSITPCpos"/>
+        <rotationref ref="SitpcStave03_38inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_39inSITPCpos"/>
+        <rotationref ref="SitpcStave03_39inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_40inSITPCpos"/>
+        <rotationref ref="SitpcStave03_40inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave03"/>
+        <positionref ref="SitpcStave03_41inSITPCpos"/>
+        <rotationref ref="SitpcStave03_41inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_0inSITPCpos"/>
+        <rotationref ref="SitpcStave04_0inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_1inSITPCpos"/>
+        <rotationref ref="SitpcStave04_1inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_2inSITPCpos"/>
+        <rotationref ref="SitpcStave04_2inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_3inSITPCpos"/>
+        <rotationref ref="SitpcStave04_3inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_4inSITPCpos"/>
+        <rotationref ref="SitpcStave04_4inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_5inSITPCpos"/>
+        <rotationref ref="SitpcStave04_5inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_6inSITPCpos"/>
+        <rotationref ref="SitpcStave04_6inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_7inSITPCpos"/>
+        <rotationref ref="SitpcStave04_7inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_8inSITPCpos"/>
+        <rotationref ref="SitpcStave04_8inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_9inSITPCpos"/>
+        <rotationref ref="SitpcStave04_9inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_10inSITPCpos"/>
+        <rotationref ref="SitpcStave04_10inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_11inSITPCpos"/>
+        <rotationref ref="SitpcStave04_11inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_12inSITPCpos"/>
+        <rotationref ref="SitpcStave04_12inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_13inSITPCpos"/>
+        <rotationref ref="SitpcStave04_13inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_14inSITPCpos"/>
+        <rotationref ref="SitpcStave04_14inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_15inSITPCpos"/>
+        <rotationref ref="SitpcStave04_15inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_16inSITPCpos"/>
+        <rotationref ref="SitpcStave04_16inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_17inSITPCpos"/>
+        <rotationref ref="SitpcStave04_17inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_18inSITPCpos"/>
+        <rotationref ref="SitpcStave04_18inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_19inSITPCpos"/>
+        <rotationref ref="SitpcStave04_19inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_20inSITPCpos"/>
+        <rotationref ref="SitpcStave04_20inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_21inSITPCpos"/>
+        <rotationref ref="SitpcStave04_21inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_22inSITPCpos"/>
+        <rotationref ref="SitpcStave04_22inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_23inSITPCpos"/>
+        <rotationref ref="SitpcStave04_23inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_24inSITPCpos"/>
+        <rotationref ref="SitpcStave04_24inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_25inSITPCpos"/>
+        <rotationref ref="SitpcStave04_25inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_26inSITPCpos"/>
+        <rotationref ref="SitpcStave04_26inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_27inSITPCpos"/>
+        <rotationref ref="SitpcStave04_27inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_28inSITPCpos"/>
+        <rotationref ref="SitpcStave04_28inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_29inSITPCpos"/>
+        <rotationref ref="SitpcStave04_29inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_30inSITPCpos"/>
+        <rotationref ref="SitpcStave04_30inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_31inSITPCpos"/>
+        <rotationref ref="SitpcStave04_31inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_32inSITPCpos"/>
+        <rotationref ref="SitpcStave04_32inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_33inSITPCpos"/>
+        <rotationref ref="SitpcStave04_33inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_34inSITPCpos"/>
+        <rotationref ref="SitpcStave04_34inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_35inSITPCpos"/>
+        <rotationref ref="SitpcStave04_35inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_36inSITPCpos"/>
+        <rotationref ref="SitpcStave04_36inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_37inSITPCpos"/>
+        <rotationref ref="SitpcStave04_37inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_38inSITPCpos"/>
+        <rotationref ref="SitpcStave04_38inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_39inSITPCpos"/>
+        <rotationref ref="SitpcStave04_39inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_40inSITPCpos"/>
+        <rotationref ref="SitpcStave04_40inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_41inSITPCpos"/>
+        <rotationref ref="SitpcStave04_41inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_42inSITPCpos"/>
+        <rotationref ref="SitpcStave04_42inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_43inSITPCpos"/>
+        <rotationref ref="SitpcStave04_43inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_44inSITPCpos"/>
+        <rotationref ref="SitpcStave04_44inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_45inSITPCpos"/>
+        <rotationref ref="SitpcStave04_45inSITPCrot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="SitpcStave04"/>
+        <positionref ref="SitpcStave04_46inSITPCpos"/>
+        <rotationref ref="SitpcStave04_46inSITPCrot"/>
+      </physvol>
+    </assembly>
+    <assembly name="SitpcGeantGeoWrapper">
+      <physvol>
+        <volumeref ref="SITPC"/>
+        <positionref ref="SITPC_0inSitpcGeantGeoWrapperpos"/>
+      </physvol>
+    </assembly>
+  </structure>
+  <setup name="default" version="1.0">
+    <world ref="SitpcGeantGeoWrapper"/>
+  </setup>
+</gdml>
