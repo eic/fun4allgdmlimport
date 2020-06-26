@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <position name="Beampipe00_0inBEAMPIPEpos" x="0" y="0" z="-245" unit="cm"/>
+    <rotation name="Beampipe00_0inBEAMPIPErot" x="180" y="-7.01670929853e-15" z="180" unit="deg"/>
+    <position name="Beampipe01_0inBEAMPIPEpos" x="0" y="0" z="0" unit="cm"/>
+    <position name="Beampipe02_0inBEAMPIPEpos" x="0" y="0" z="245" unit="cm"/>
+    <position name="BEAMPIPE_0inBeampipeGeantGeoWrapperpos" x="0" y="0" z="0" unit="cm"/>
+  </define>
+  <materials>
+    <material name="aluminum" Z="13">
+      <D unit="g/cm3" value="2.7"/>
+      <atom unit="g/mole" value="26.98"/>
+    </material>
+    <material name="beryllium" Z="4">
+      <D unit="g/cm3" value="1.848"/>
+      <atom unit="g/mole" value="9.01"/>
+    </material>
+    <material name="aluminum0x1" Z="13">
+      <D unit="g/cm3" value="2.7"/>
+      <atom unit="g/mole" value="26.98"/>
+    </material>
+  </materials>
+  <solids>
+    <polycone name="Beampipe000x1" startphi="0" deltaphi="360" aunit="deg" lunit="cm">
+      <zplane z="-205" rmin="1.72" rmax="1.8"/>
+      <zplane z="-145" rmin="1.92" rmax="2"/>
+      <zplane z="205" rmin="1.92" rmax="2"/>
+    </polycone>
+    <tube name="Beampipe010x1" rmin="1.72" rmax="1.8" z="80" startphi="0" deltaphi="360" aunit="deg" lunit="cm"/>
+    <polycone name="Beampipe020x1" startphi="0" deltaphi="360" aunit="deg" lunit="cm">
+      <zplane z="-205" rmin="1.72" rmax="1.8"/>
+      <zplane z="-145" rmin="1.92" rmax="2"/>
+      <zplane z="205" rmin="1.92" rmax="2"/>
+    </polycone>
+  </solids>
+  <structure>
+    <volume name="Beampipe00">
+      <materialref ref="aluminum"/>
+      <solidref ref="Beampipe000x1"/>
+    </volume>
+    <volume name="Beampipe01">
+      <materialref ref="beryllium"/>
+      <solidref ref="Beampipe010x1"/>
+    </volume>
+    <volume name="Beampipe02">
+      <materialref ref="aluminum"/>
+      <solidref ref="Beampipe020x1"/>
+    </volume>
+    <assembly name="BEAMPIPE">
+      <physvol>
+        <volumeref ref="Beampipe00"/>
+        <positionref ref="Beampipe00_0inBEAMPIPEpos"/>
+        <rotationref ref="Beampipe00_0inBEAMPIPErot"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="Beampipe01"/>
+        <positionref ref="Beampipe01_0inBEAMPIPEpos"/>
+      </physvol>
+      <physvol>
+        <volumeref ref="Beampipe02"/>
+        <positionref ref="Beampipe02_0inBEAMPIPEpos"/>
+      </physvol>
+    </assembly>
+    <assembly name="BeampipeGeantGeoWrapper">
+      <physvol>
+        <volumeref ref="BEAMPIPE"/>
+        <positionref ref="BEAMPIPE_0inBeampipeGeantGeoWrapperpos"/>
+      </physvol>
+    </assembly>
+  </structure>
+  <setup name="default" version="1.0">
+    <world ref="BeampipeGeantGeoWrapper"/>
+  </setup>
+</gdml>

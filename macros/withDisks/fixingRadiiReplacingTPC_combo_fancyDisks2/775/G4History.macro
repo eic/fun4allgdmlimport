@@ -1,0 +1,15 @@
+/run/verbose 2
+/vis/scene/create
+/vis/open OGLSX 1200x900-0+0
+/vis/sceneHandler/create OGLSX
+/vis/sceneHandler/attach
+/vis/viewer/create ! ! 1200x900-0+0
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/ogl/set/displayListLimit 500000
+/vis/viewer/set/viewpointThetaPhi 240 -10
+/vis/viewer/refresh
+/vis/viewer/addCutawayPlane 0 0 0 m 1 0 0
+/vis/viewer/refresh
+/vis/viewer/zoom 1.5
+/vis/viewer/refresh
