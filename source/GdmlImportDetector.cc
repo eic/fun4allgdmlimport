@@ -42,7 +42,7 @@ class PHCompositeNode;
 
 using namespace std;
 
-//____________________________________________________________________________..
+//___________________________________________________________________________..
 GdmlImportDetector::GdmlImportDetector(PHG4Subsystem *subsys,
                                                      PHCompositeNode *Node,
                                                      PHParameters *parameters,
