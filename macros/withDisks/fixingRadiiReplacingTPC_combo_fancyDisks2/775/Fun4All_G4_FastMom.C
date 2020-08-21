@@ -77,7 +77,7 @@ void Fun4All_G4_FastMom(
 	gen->set_name(std::string(genpar));	// geantino, pi-, pi+, mu-, mu+, e-., e+, proton, ... (currently passed as an input)
 	gen->set_vtx(0,0,0);			// Vertex generation range
 	gen->set_mom_range(0.0, 30.0);		// Momentum generation range in GeV/c
-	//gen->set_z_range(0.,0.);
+	gen->set_z_range(0.0 ,0.0); //THIS NEEDS TO BE SET, TO NOT DEFAULT TO -10 TO 10
 	gen->set_eta_range(0.0, 1.0);		// Detector coverage corresponds to |η|< 4
 	gen->set_phi_range(0.0, 2.0*TMath::Pi());
 	
@@ -272,7 +272,10 @@ void Fun4All_G4_FastMom(
 	kalman->set_use_vertex_in_fitting(false);
 	kalman->set_sub_top_node_name("SVTX");
 	kalman->set_trackmap_out_name("SvtxTrackMap");
-	
+	kalman->set_vertex_xy_resolution(0.0);  // Smear to zero
+	kalman->set_vertex_z_resolution(0.0);  //  Smear to zero
+
+
 	//10: SVT
 	//20: Time-stamping layer(s)
 	//30: Silicon TPC
