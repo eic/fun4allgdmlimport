@@ -22,7 +22,7 @@ Then `source /cvmfs/eic.opensciencegrid.org/x8664_sl7/opt/fun4all/core/bin/setup
 
 Then we can go into macros and run `root -l Fun4All_G4_FastMom.C\(-1\)`.
 
-The most recent version of this file is located in macros/withDisks/fixingRadiiReplacingTPC_combo_fancyDisks2/775
+The most recent version of this file is located in **macros/hepMCeventReading/newBaseline_775_actualBeampipe/ITS3**
 
 The active detector parts can be changed via the file detector_setup.h.
 
