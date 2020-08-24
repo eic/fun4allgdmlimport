@@ -503,7 +503,7 @@ void Fun4All_G4_FastMom(
 	in2->Verbosity(10);
 	se->registerInputManager(in2);
 	//in2->fileopen(in2->Name().c_str(), inputFile); //Need to add both file name and the name of the input manager to bind it to!
-	se->fileopen(in2->Name().c_str(), "../../eventFiles/ggm2ccbar_28_1_100000.dat"); //Need to add both file name and the name of the input manager to bind it to!
+	se->fileopen(in2->Name().c_str(), "../../eventFiles/ggm2ccbar_28_1_100.dat"); //Need to add both file name and the name of the input manager to bind it to!
 
 	//Fun4AllInputManager *in = new Fun4AllDummyInputManager("JADE");
 	//se->registerInputManager(in);
