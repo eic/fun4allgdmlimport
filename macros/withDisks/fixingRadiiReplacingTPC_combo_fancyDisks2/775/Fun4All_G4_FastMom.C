@@ -281,7 +281,9 @@ void Fun4All_G4_FastMom(
 	//30: Silicon TPC
 	//40: Forward disks
 	//50: Backward disks
-	
+	double pixelResolution = 10e-4/sqrt(12);
+	std::cout << pixelResolution << std::endl;
+
 	#ifdef _BARREL_
 	//SVT
 	//This adds the hit nodes for EACH LAYER OF THE DETECTOR.
@@ -291,8 +293,8 @@ void Fun4All_G4_FastMom(
 				nodeName,				// const std::string& phg4hitsNames
 				PHG4TrackFastSim::Cylinder,		// const DETECTOR_TYPE phg4dettype
 				999.,					// radial-resolution [cm] (this number is not used in cylindrical geometry)
-				5.8e-4,					// azimuthal (arc-length) resolution [cm]
-				5.8e-4,					// longitudinal (z) resolution [cm]
+				pixelResolution,					// azimuthal (arc-length) resolution [cm]
+				pixelResolution,					// longitudinal (z) resolution [cm]
 				1,					// efficiency (fraction)
 				0					// hit noise
 		);
@@ -307,8 +309,8 @@ void Fun4All_G4_FastMom(
 				nodeName,				// const std::string& phg4hitsNames
 				PHG4TrackFastSim::Cylinder,		// const DETECTOR_TYPE phg4dettype
 				999.,					// radial-resolution [cm] (this number is not used in cylindrical geometry)
-				5.8e-4,					// azimuthal (arc-length) resolution [cm]
-				5.8e-4,					// longitudinal (z) resolution [cm]
+				pixelResolution,					// azimuthal (arc-length) resolution [cm]
+				pixelResolution,					// longitudinal (z) resolution [cm]
 				1,					// efficiency (fraction)
 				0					// hit noise
 		);
@@ -324,8 +326,8 @@ void Fun4All_G4_FastMom(
 				nodeName,				// const std::string& phg4hitsNames
 				PHG4TrackFastSim::Cylinder,		// const DETECTOR_TYPE phg4dettype
 				999.,					// radial-resolution [cm] (this number is not used in cylindrical geometry)
-				5.8e-4,					// azimuthal (arc-length) resolution [cm]
-				5.8e-4,					// longitudinal (z) resolution [cm]
+				pixelResolution,					// azimuthal (arc-length) resolution [cm]
+				pixelResolution,					// longitudinal (z) resolution [cm]
 				1,					// efficiency (fraction)
 				0					// hit noise
 		);
@@ -340,8 +342,8 @@ void Fun4All_G4_FastMom(
 		kalman->add_phg4hits(
 				nodeName,				// const std::string& phg4hitsNames
 				PHG4TrackFastSim::Vertical_Plane,		// const DETECTOR_TYPE phg4dettype
-				5.8e-4,					// radial-resolution [cm] 
-				5.8e-4,					// azimuthal (arc-length) resolution [cm]
+				pixelResolution,					// radial-resolution [cm] 
+				pixelResolution,					// azimuthal (arc-length) resolution [cm]
 				999.0,					// longitudinal (z) resolution [cm](not used for vertical plane)
 				1,					// efficiency (fraction)
 				0					// hit noise
@@ -356,8 +358,8 @@ void Fun4All_G4_FastMom(
 		kalman->add_phg4hits(
 				nodeName,				// const std::string& phg4hitsNames
 				PHG4TrackFastSim::Vertical_Plane,		// const DETECTOR_TYPE phg4dettype
-				5.8e-4,					// radial-resolution [cm] 
-				5.8e-4,					// azimuthal (arc-length) resolution [cm]
+				pixelResolution,					// radial-resolution [cm] 
+				pixelResolution,					// azimuthal (arc-length) resolution [cm]
 				999.0,					// longitudinal (z) resolution [cm] (not used for vertical plane)
 				1,					// efficiency (fraction)
 				0					// hit noise
@@ -368,11 +370,6 @@ void Fun4All_G4_FastMom(
 	
 	
 	se->registerSubsystem(kalman);
-	// -----------------------------------------------------
-	// INFO: The resolution numbers above correspond to:
-	// 20e-4/sqrt(12) cm = 5.8e-4 cm, to simulate 20x20 um
-	
-	
 	
 
 	// ======================================================================================================
