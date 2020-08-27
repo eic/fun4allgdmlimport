@@ -16,3 +16,5 @@ root -l Fun4All_G4_HybridBaseline.C\(-1\)
 .L DisplayOn()
 PHG4Reco * g4 = DisplayOn()
 ```
+
+Do not worry if the three vertexing layers look odd in the display; this is an artefact of their thinness and how it is handled via EICROOT. They function correctly, and have the correct material.
