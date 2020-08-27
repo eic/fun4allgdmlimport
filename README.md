@@ -1,5 +1,7 @@
 # Fun4AllGdmlImport
 
+Based on the GDML importer created by REy Cruz-Torres, Jin Huang, and Chris Pinkenburg.
+
 Importing GDML files for the silicon created in EICROOT into the Fun4All framework.
 Using the Fun4All structure of things.
 
@@ -25,6 +27,8 @@ Then we can go into macros and run `root -l Fun4All_G4_FastMom.C\(-1\)`.
 The most recent version of this file is located in **macros/hepMCeventReading/newBaseline_775_actualBeampipe/ITS3**
 
 The active detector parts can be changed via the file detector_setup.h.
+
+The **hybrid detector baseline** (as of 2020-08-25) can be found in macros/hybridBaseline.
 
 # To add a detector:
 
