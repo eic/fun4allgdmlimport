@@ -9,7 +9,7 @@ The disks are in a tapered configuration for the innermost two, hitting full ava
 The detector parts present are changed in detector_setup.h.
 
 To get a display of this configuration:
-First, make sure you have done the steps in the basic readme, to get Singularity going with the GdmlImporter installed and sourced. Then do
+First, make sure you have done the steps in the basic readme (https://gitlab.com/hwennlof/fun4allgdmlimport/-/tree/master/), to get Singularity going with the GdmlImporter installed and sourced. Then do
 
 ```
 root -l Fun4All_G4_HybridBaseline.C\(-1\)
