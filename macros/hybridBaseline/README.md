@@ -8,3 +8,8 @@ The disks are in a tapered configuration for the innermost two, hitting full ava
 
 To get a display of this configuration:
 
+`
+root -l Fun4All_G4_HybridBaseline.C\(-1\)
+.L DisplayOn()
+PHG4Reco * g4 = DisplayOn()
+`
