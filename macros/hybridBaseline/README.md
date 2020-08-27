@@ -9,12 +9,8 @@ The disks are in a tapered configuration for the innermost two, hitting full ava
 To get a display of this configuration:
 First, make sure you have done the steps in the basic readme, to get singularity going with the GdmlImporter installed and sourced. Then do
 
-`
-
+```
 root -l Fun4All_G4_HybridBaseline.C\(-1\)
-
 .L DisplayOn()
-
 PHG4Reco * g4 = DisplayOn()
-
-`
+```
