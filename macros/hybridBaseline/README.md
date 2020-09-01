@@ -6,6 +6,9 @@ It has 5 silicon barrel layers, consisting of 3 vertexing layers and 2 outer lay
 
 The disks are in a tapered configuration for the innermost two, hitting full available radius at the third disk. The material thickness for the disks is 0.24% X/X0.
 
+![](macros/hybridBaseline/correctedRadii_TPC_adjusted1eta05to05_newBP_newBaseline_newLengths_taperedDisks_1.png)
+
+
 The detector parts present are changed in detector_setup.h.
 
 To get a display of this configuration:
