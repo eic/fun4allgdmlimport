@@ -1,7 +1,7 @@
 //Beam pipe
 
 #define _BEAMPIPE_ //comment out this line for no beam pipe
-//#define _USE_FORWARD_PIPES_ //To use the beampipe extensions
+#define _USE_FORWARD_PIPES_ //To use the beampipe extensions. Slows down simulations
 
 //Silicon Barrel
 
@@ -12,6 +12,7 @@
 //TPC
 
 #define _TPC_ //comment out this line for no tpc
+#define _TPC_ENDCAPS_ //comment out this line for no TPC endcaps
 
 
 //Silicon Disks
@@ -23,7 +24,6 @@
 #define _NO_OF_BACKWARD_DISKS_ 7
 
 //Black holes to catch all hits outside of colume
-
 //#define _BLACKHOLES_
 
 
