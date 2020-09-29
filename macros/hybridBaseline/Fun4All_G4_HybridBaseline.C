@@ -25,6 +25,8 @@
 #include <phool/recoConsts.h>
 #include <g4detectors/PHG4GDMLSubsystem.h>
 
+#include <g4tpc/PHG4TpcEndCapSubsystem.h>
+
 #include <g4main/HepMCNodeReader.h>
 #include <phhepmc/Fun4AllHepMCInputManager.h>
 
@@ -40,6 +42,7 @@ R__LOAD_LIBRARY(libfun4all.so)
 R__LOAD_LIBRARY(libg4detectors.so)
 R__LOAD_LIBRARY(libgdmlimportdetector.so)
 R__LOAD_LIBRARY(libg4trackfastsim.so)
+R__LOAD_LIBRARY(libg4tpc.so)
 
 
 namespace G4TPC
@@ -105,12 +108,12 @@ void Fun4All_G4_HybridBaseline(
 	cout << "Particle that will be generated: " << std::string(genpar) << endl;
 	// --------------------------------------------------------------------------------------
 	// Particle Generator Setup
-	PHG4ParticleGenerator *gen = new PHG4ParticleGenerator();
+	PHG4ParticleGenerator * gen = new PHG4ParticleGenerator();
 	gen->set_name(std::string(genpar));	// geantino, pi-, pi+, mu-, mu+, e-., e+, proton, ... (currently passed as an input)
 	gen->set_vtx(0,0,0);			// Vertex generation range
 	gen->set_mom_range(0.0, 30.0);		// Momentum generation range in GeV/c
 	gen->set_z_range(0.0, 0.0); //THIS NEEDS TO BE SET, TO NOT DEFAULT TO -10 TO 10
-	gen->set_eta_range(0.0, 1.0);		// Detector coverage corresponds to |η|< 4
+	gen->set_eta_range(-4.0, 4.0);		// Detector coverage corresponds to |η|< 4
 	gen->set_phi_range(0.0, 2.0*TMath::Pi());
 	
 	// --------------------------------------------------------------------------------------
@@ -270,14 +273,15 @@ void Fun4All_G4_HybridBaseline(
 	double radius = G4TPC::inner_cage_radius;
 	
 	// inner field cage
-	cylTPC = new PHG4CylinderSubsystem("SVTXSUPPORT", 60);
+	cylTPC = new PHG4CylinderSubsystem("FIELDCAGE", 60);
 	cylTPC->set_double_param("radius", radius);
 	cylTPC->set_double_param("length", G4TPC::cage_length);
 	cylTPC->set_string_param("material", "G4_KAPTON");
 	cylTPC->set_double_param("thickness", G4TPC::cage_thickness);
-	cylTPC->SuperDetector("SVTXSUPPORT");
+	cylTPC->SuperDetector("FIELDCAGE");
 	cylTPC->Verbosity(0);
 	g4Reco->registerSubsystem(cylTPC);
+
 
 	int n_tpc_layers[3] = {16, 16, 16};
 	int tpc_layer_rphi_count[3] = {1152, 1536, 2304};
@@ -290,13 +294,13 @@ void Fun4All_G4_HybridBaseline(
 		double tpc_layer_thickness = tpc_region_thickness[irange] / n_tpc_layers[irange];  // thickness per layer
 		for (int ilayer = 0; ilayer < n_tpc_layers[irange]; ilayer++)
 		{
-			cylTPC = new PHG4CylinderSubsystem("SVTX", nlayer);
+			cylTPC = new PHG4CylinderSubsystem("TPC", nlayer);
 			cylTPC->set_double_param("radius", radius);
 			cylTPC->set_double_param("length", G4TPC::cage_length);
 			cylTPC->set_string_param("material", G4TPC::tpcgas);
 			cylTPC->set_double_param("thickness", tpc_layer_thickness - 0.01);
 			cylTPC->SetActive();
-			cylTPC->SuperDetector("SVTX");
+			cylTPC->SuperDetector("TPC");
 			g4Reco->registerSubsystem(cylTPC);
 
 			radius += tpc_layer_thickness;
@@ -305,16 +309,31 @@ void Fun4All_G4_HybridBaseline(
 	}
 
 	// outer field cage
-	cylTPC = new PHG4CylinderSubsystem("SVTXSUPPORT", nlayer);
+	cylTPC = new PHG4CylinderSubsystem("FIELDCAGE", nlayer);
 	cylTPC->set_double_param("radius", radius);
 	cylTPC->set_int_param("lengthviarapidity", 0);
 	cylTPC->set_double_param("length", G4TPC::cage_length);
 	cylTPC->set_string_param("material", "G4_KAPTON");
 	cylTPC->set_double_param("thickness", G4TPC::cage_thickness);  // Kapton X_0 = 28.6 cm
-	cylTPC->SuperDetector("SVTXSUPPORT");
+	cylTPC->SuperDetector("FIELDCAGE");
 	g4Reco->registerSubsystem(cylTPC);
 	#endif //End of TPC definition
 	
+	#ifdef _TPC_ENDCAPS_
+	bool AbsorberActive = false;
+	
+	PHG4TpcEndCapSubsystem* tpc_endcap = new PHG4TpcEndCapSubsystem("TPC_ENDCAP");
+	tpc_endcap->SuperDetector("TPC_ENDCAP");
+
+	if (AbsorberActive) {
+		tpc_endcap->SetActive();
+	}
+	//tpc_endcap->OverlapCheck(OverlapCheck);
+
+	//  tpc_endcap->set_int_param("construction_verbosity", 2);
+
+	g4Reco->registerSubsystem(tpc_endcap);
+	#endif
 	
 	
 	
@@ -410,7 +429,7 @@ void Fun4All_G4_HybridBaseline(
 	//No need to here keep track of the layer numbers
 	#ifdef _TPC_
 	    kalman->add_phg4hits(
-        "G4HIT_SVTX",                //      const std::string& phg4hitsNames,
+        "G4HIT_TPC",                //      const std::string& phg4hitsNames,
         PHG4TrackFastSim::Cylinder,  //      const DETECTOR_TYPE phg4dettype,
         1,                           //      const float radres,
         200e-4,                      //      const float phires,
@@ -419,6 +438,7 @@ void Fun4All_G4_HybridBaseline(
         0                            //      const float noise
     );
     #endif
+    
 	
 	
 	#ifdef _FORWARD_SILICON_DISKS_
@@ -483,7 +503,7 @@ void Fun4All_G4_HybridBaseline(
 	}
 	#endif
 	#ifdef _TPC_
-		hits->AddNode("SVTX", 60);
+		hits->AddNode("TPC", 60);
 	#endif
 	#ifdef _FORWARD_SILICON_DISKS_
 	//Forward silicon disks
