@@ -1,4 +1,4 @@
-#include "SimpleNtuple.h"
+#include "HkSimpleNtuple.h"
 
 #include <g4main/PHG4Hit.h>
 #include <g4main/PHG4HitContainer.h>
@@ -17,7 +17,7 @@
 
 using namespace std;
 
-SimpleNtuple::SimpleNtuple(const std::string &name, const std::string &filename)
+HkSimpleNtuple::HkSimpleNtuple(const std::string &name, const std::string &filename)
   : SubsysReco(name)
   , m_HistoManager(nullptr)
   , m_Ntup(nullptr)
@@ -26,12 +26,12 @@ SimpleNtuple::SimpleNtuple(const std::string &name, const std::string &filename)
 {
 }
 
-SimpleNtuple::~SimpleNtuple()
+HkSimpleNtuple::~HkSimpleNtuple()
 {
   delete m_HistoManager;
 }
 
-int SimpleNtuple::Init(PHCompositeNode *)
+int HkSimpleNtuple::Init(PHCompositeNode *)
 {
   m_HistoManager = new Fun4AllHistoManager(Name());
   m_Outfile = new TFile(m_Filename.c_str(), "RECREATE");
@@ -44,7 +44,7 @@ int SimpleNtuple::Init(PHCompositeNode *)
   return 0;
 }
 
-int SimpleNtuple::process_event(PHCompositeNode *topNode)
+int HkSimpleNtuple::process_event(PHCompositeNode *topNode)
 {
   ostringstream nodename;
   set<string>::const_iterator iter;
@@ -82,7 +82,7 @@ int SimpleNtuple::process_event(PHCompositeNode *topNode)
   return 0;
 }
 
-int SimpleNtuple::End(PHCompositeNode *topNode)
+int HkSimpleNtuple::End(PHCompositeNode *topNode)
 {
   m_Outfile->cd();
   m_Ntup->Write();
@@ -93,7 +93,7 @@ int SimpleNtuple::End(PHCompositeNode *topNode)
   return 0;
 }
 
-void SimpleNtuple::AddNode(const std::string &name, const int detid)
+void HkSimpleNtuple::AddNode(const std::string &name, const int detid)
 {
   m_NodePostfixSet.insert(name);
   m_DetIdMap[name] = detid;

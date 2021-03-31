@@ -1,7 +1,7 @@
 // Tell emacs that this is a C++ source
 //  -*- C++ -*-.
-#ifndef TRACKFASTSIMEVAL_H
-#define TRACKFASTSIMEVAL_H
+#ifndef HKTRACKFASTSIMEVAL_H
+#define HKTRACKFASTSIMEVAL_H
 
 #include <fun4all/SubsysReco.h>
 
@@ -18,11 +18,11 @@ class TTree;
 class TH2D;
 
 //Brief: basic ntuple and histogram creation for sim evaluation
-class TrackFastSimEval : public SubsysReco
+class HkTrackFastSimEval : public SubsysReco
 {
  public:
   //Default constructor
-  TrackFastSimEval(const std::string& name = "TrackFastSimEval",
+  HkTrackFastSimEval(const std::string& name = "HkTrackFastSimEval",
                    const std::string& filename = "g4eval.root",
                    const std::string& trackmapname = "SvtxTrackMap");
 
@@ -49,7 +49,7 @@ class TrackFastSimEval : public SubsysReco
   };
 
   //Set the flag
-  //Flags should be set like set_flag(TrackFastSimEval::TRUTH, true) from macro
+  //Flags should be set like set_flag(HkTrackFastSimEval::TRUTH, true) from macro
   void set_flag(const Flag& flag, const bool& value)
   {
     if (value)
@@ -138,4 +138,4 @@ class TrackFastSimEval : public SubsysReco
   std::map<std::string, int> m_ProjectionNameMap;
 };
 
-#endif  //* TRACKFASTSIMEVAL_H *//
+#endif  //* HKTRACKFASTSIMEVAL_H *//

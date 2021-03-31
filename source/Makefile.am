@@ -23,16 +23,16 @@ libgdmlimportdetector_la_LIBADD = \
 
 pkginclude_HEADERS = \
   GdmlImportDetectorSubsystem.h \
-  SimpleNtuple.h \
-  TrackFastSimEval.h
+  HkSimpleNtuple.h \
+  HkTrackFastSimEval.h
 
 libgdmlimportdetector_la_SOURCES = \
   GdmlImportDetector.cc \
   GdmlImportDetectorDisplayAction.cc \
   GdmlImportDetectorSteppingAction.cc \
   GdmlImportDetectorSubsystem.cc \
-  SimpleNtuple.cc \
-  TrackFastSimEval.cc
+  HkSimpleNtuple.cc \
+  HkTrackFastSimEval.cc
 
 ################################################
 # linking tests

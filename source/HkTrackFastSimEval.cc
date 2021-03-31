@@ -1,4 +1,4 @@
-#include "TrackFastSimEval.h"
+#include "HkTrackFastSimEval.h"
 
 #include <trackbase_historic/SvtxTrack.h>
 #include <trackbase_historic/SvtxTrackMap.h>
@@ -39,7 +39,7 @@ using namespace std;
 //-- Constructor:
 //--  simple initialization
 //----------------------------------------------------------------------------//
-TrackFastSimEval::TrackFastSimEval(const string &name, const string &filename, const string &trackmapname)
+HkTrackFastSimEval::HkTrackFastSimEval(const string &name, const string &filename, const string &trackmapname)
   : SubsysReco(name)
   , _outfile_name(filename)
   , _trackmapname(trackmapname)
@@ -60,7 +60,7 @@ TrackFastSimEval::TrackFastSimEval(const string &name, const string &filename, c
 //-- Init():
 //--   Intialize all histograms, trees, and ntuples
 //----------------------------------------------------------------------------//
-int TrackFastSimEval::Init(PHCompositeNode *topNode)
+int HkTrackFastSimEval::Init(PHCompositeNode *topNode)
 {
   cout << PHWHERE << " Openning file " << _outfile_name << endl;
   PHTFileServer::get().open(_outfile_name, "RECREATE");
@@ -151,7 +151,7 @@ int TrackFastSimEval::Init(PHCompositeNode *topNode)
 //--   Call user instructions for every event.
 //--   This function contains the analysis structure.
 //----------------------------------------------------------------------------//
-int TrackFastSimEval::process_event(PHCompositeNode *topNode)
+int HkTrackFastSimEval::process_event(PHCompositeNode *topNode)
 {
   _event++;
   if (Verbosity() >= 2 and _event % 1000 == 0)
@@ -172,7 +172,7 @@ int TrackFastSimEval::process_event(PHCompositeNode *topNode)
 //-- End():
 //--   End method, wrap everything up
 //----------------------------------------------------------------------------//
-int TrackFastSimEval::End(PHCompositeNode *topNode)
+int HkTrackFastSimEval::End(PHCompositeNode *topNode)
 {
   PHTFileServer::get().cd(_outfile_name);
 
@@ -191,7 +191,7 @@ int TrackFastSimEval::End(PHCompositeNode *topNode)
 //-- fill_tree():
 //--   Fill the trees with truth, track fit, and cluster information
 //----------------------------------------------------------------------------//
-void TrackFastSimEval::fill_track_tree(PHCompositeNode *topNode)
+void HkTrackFastSimEval::fill_track_tree(PHCompositeNode *topNode)
 {
   // Make sure to reset all the TTree variables before trying to set them.
 
@@ -360,7 +360,7 @@ void TrackFastSimEval::fill_track_tree(PHCompositeNode *topNode)
 //-- fill_tree():
 //--   Fill the trees with truth, track fit, and cluster information
 //----------------------------------------------------------------------------//
-void TrackFastSimEval::fill_vertex_tree(PHCompositeNode *topNode)
+void HkTrackFastSimEval::fill_vertex_tree(PHCompositeNode *topNode)
 {
   if (!_truth_container)
   {
@@ -456,7 +456,7 @@ void TrackFastSimEval::fill_vertex_tree(PHCompositeNode *topNode)
 //--   Reset all the tree variables to their default values.
 //--   Needs to be called at the start of every event
 //----------------------------------------------------------------------------//
-void TrackFastSimEval::reset_variables()
+void HkTrackFastSimEval::reset_variables()
 {
   event = -9999;
 
@@ -498,7 +498,7 @@ void TrackFastSimEval::reset_variables()
 //-- GetNodes():
 //--   Get all the all the required nodes off the node tree
 //----------------------------------------------------------------------------//
-int TrackFastSimEval::GetNodes(PHCompositeNode *topNode)
+int HkTrackFastSimEval::GetNodes(PHCompositeNode *topNode)
 {
   //DST objects
   //Truth container
@@ -533,7 +533,7 @@ int TrackFastSimEval::GetNodes(PHCompositeNode *topNode)
   return Fun4AllReturnCodes::EVENT_OK;
 }
 
-void TrackFastSimEval::AddProjection(const string &name)
+void HkTrackFastSimEval::AddProjection(const string &name)
 {
   m_ProjectionNameMap.insert(make_pair(name, m_ProjectionNameMap.size()));
   return;
