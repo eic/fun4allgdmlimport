@@ -23,23 +23,16 @@ libgdmlimportdetector_la_LIBADD = \
 
 pkginclude_HEADERS = \
   GdmlImportDetectorSubsystem.h \
-  SimpleNtuple.h \
-  TrackFastSimEval.h
+  HkSimpleNtuple.h \
+  HkTrackFastSimEval.h
 
 libgdmlimportdetector_la_SOURCES = \
   GdmlImportDetector.cc \
   GdmlImportDetectorDisplayAction.cc \
   GdmlImportDetectorSteppingAction.cc \
   GdmlImportDetectorSubsystem.cc \
-  SimpleNtuple.cc \
-  TrackFastSimEval.cc
-
-# Rule for generating table CINT dictionaries.
-%_Dict.cc: %.h %LinkDef.h
-	rootcint -f $@ @CINTDEFS@  -c $(DEFAULT_INCLUDES) $(AM_CPPFLAGS) $^
-
-#just to get the dependency
-%_Dict_rdict.pcm: %_Dict.cc ;
+  HkSimpleNtuple.cc \
+  HkTrackFastSimEval.cc
 
 ################################################
 # linking tests
@@ -65,4 +58,4 @@ testexternals.cc:
 ################################################
 
 clean-local:
-	rm -f *Dict* $(BUILT_SOURCES) *.pcm
+	rm -f $(BUILT_SOURCES)

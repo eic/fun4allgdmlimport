@@ -1,5 +1,5 @@
-#ifndef SIMPLENTUPLE_H
-#define SIMPLENTUPLE_H
+#ifndef HKSIMPLENTUPLE_H
+#define HKSIMPLENTUPLE_H
 
 #include <fun4all/SubsysReco.h>
 
@@ -15,14 +15,14 @@ class TFile;
 class TH1;
 class TNtuple;
 
-class SimpleNtuple : public SubsysReco
+class HkSimpleNtuple : public SubsysReco
 {
  public:
   //! constructor
-  SimpleNtuple(const std::string &name = "SimpleNtuple", const std::string &filename = "SimpleNtuple.root");
+  HkSimpleNtuple(const std::string &name = "HkSimpleNtuple", const std::string &filename = "SimpleNtuple.root");
 
   //! destructor
-  virtual ~SimpleNtuple();
+  virtual ~HkSimpleNtuple();
 
   //! full initialization
   int Init(PHCompositeNode *);
